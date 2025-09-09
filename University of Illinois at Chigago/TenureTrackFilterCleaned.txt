@@ -1,0 +1,160 @@
+Yang Dai PhD, University of Tsukuba, Japan
+David Eddington PhD, University of Wisconsin–Madison
+Hananeh Esmailbeigi PhD, University of Illinois at Chicago
+John R. Hetling PhD, University of Illinois at Chicago
+Salman Khetani PhD, University of California, San Diego
+Dieter Klatt PhD, Humboldt University Berlin and Charité, Germany
+Miiri Kotche PhD, University of Illinois at Chicago
+Terry Layton PhD, University of Illinois at Chicago
+James Lee PhD, University of Pennsylvania
+Alex Leow MD, PhD, National Taiwan University, University of California,Los Angeles
+Xue-Jun Li PhD, Fudan University, China
+Jie Liang PhD, University of Illinois at Urbana-Champaign
+Andreas Linninger PhD, Vienna University of Technology
+Hui Lu PhD, University of Illinois at Urbana-Champaign
+Ao Ma PhD, Brown University
+Richard L. Magin PhD, University of Rochester
+Raghu Natarajan PhD, University of London
+William D. O’Neill PhD, University of Notre Dame
+Ian Papautsky PhD, University of Utah
+James Patton PhD, Northwestern University
+Thomas J. Royston PhD, Ohio State University
+Tolou Shokuhfar PhD, Michigan Technological University
+Michael A. Stroscio PhD, Yale University
+Christos Takoudis PhD, University of Minnesota
+Daniela Valdez-Jasso PhD, North Carolina State University
+Xincheng Yao PhD, Chinese Academy of Sciences
+Said Al-Hallaj PhD, Illinois Institute of Technology
+Michael D. Amiridis PhD, University of Wisconsin-Madison
+Sanjay Behura PhD, Pandit Deendayal Petroleum University
+Vikas Berry PhD, Virginia Polytechnic Institute and State University
+Betul Bilgin PhD, Michigan State University
+Michael Caracotsios PhD, University of Wisconsin-Madison
+Brian P. Chaplin PhD, University of Illinois at Urbana-Champaign
+Gang Cheng PhD, University of Washington Seattle
+Ying Liu PhD, Princeton University
+Shafigh Mehraeen PhD, Stanford University
+Ludwig C. Nitsche PhD, Massachusetts Institute of Technology
+Vivek Sharma PhD, Georgia Institute of Technology
+Meenesh R. Singh PhD, Purdue University
+Christos G. Takoudis PhD, University of Minnesota
+Lewis E. Wedgewood PhD, University of Wisconsin–Madison
+Alan Zdunek PhD, Illinois Institute of Technology
+Ahmed A. Abokifa PhD, Washington University in St. Louis
+Farhad Ansari PhD, University of Illinois at Chicago
+Hossein Ataei PhD, University of Southern California
+Christopher B. Burke PhD, Purdue University
+Santanu Chaudhuri PhD, State University of New York, Stony Brook
+Sheng Wei Chi PhD, University of California, Los Angeles
+Matthew Daly PhD, University of Toronto
+Sybil Derrible PhD, University of Toronto
+Craig Foster PhD, Stanford University
+Mohsen A. Issa PhD, University of Texas at Arlington
+Sara Kadkhodaei PhD, Brown University
+Eduard Karpov PhD, University of Southampton
+Amid Khodadoust PhD, University of Cincinnati
+Jie (Jane) Lin PhD, University of California, Davis
+Mustafa Mahamid PhD, University of Wisconsin at Milwaukee
+Abolfazl (Kouros) Mohammadian PhD, University of Toronto
+Didem Ozevin PhD, Lehigh University
+Krishna Reddy PhD, Illinois Institute of Technology
+Karl Rockne PhD, University of Washington
+Joseph Schulenberg PhD, Northwestern University
+Thomas L. Theis PhD, University of Notre Dame
+Bo Zou PhD, University of California, Berkeley
+John Bell PhD, University of Wisconsin
+Tanya Berger-Wolf PhD, University of Illinois at Urbana-Champaign
+Ugo A. Buy PhD, University of Massachusetts
+Isabel F. Cruz PhD, University of Toronto
+Bhaskar DasGupta PhD, University of Minnesota
+Thomas A. DeFanti PhD, Ohio State University
+Barbara Di Eugenio PhD, University of Pennsylvania
+Jakob Eriksson PhD, University of California, Riverside
+Piotr Gmytrasiewicz PhD, University of Michigan
+Mark Grechanik PhD, University of Texas
+Andrew Johnson PhD, Wayne State University
+Chris Kanich PhD, University of California, San Diego
+Robert V. Kenyon PhD, University of California, Berkeley
+Ashfaq Khokhar PhD, University of Southern California
+Ajay D. Kshemkalyani PhD, Ohio State University
+Jason Leigh PhD, University of Illinois at Chicago
+John P. Lillis PhD, University of California, San Diego
+Bing Liu PhD, University of Edinburgh, UK
+Leilah Lyons PhD, University of Michigan
+Thomas G. Moher PhD, University of Minnesota
+Tadao Murata PhD, University of Illinois at Urbana-Champaign
+Peter C. Nelson PhD, Northwestern University
+Dale F. Reed PhD, Northwestern University
+Sol M. Shatz PhD, Northwestern University
+A. Prasad Sistla PhD, Harvard University
+Robert H. Sloan PhD, Massachusetts Institute of Technology
+Jon Solworth PhD, New York University
+Mitchell Theys PhD, Purdue University
+Patrick A. Troy, MS, Pennsylvania State University
+Jing-Pha Tsa PhD, Northeastern University
+Venkat Venkatakrishnan PhD, Stony Brook University
+Ouri Wolfson PhD, New York University
+Clement T. Yu PhD, Cornell University
+Philip S. Yu PhD, Stanford University
+Brian Ziebart PhD, Carnegie Mellon University
+Lenore Zuck PhD, Weizmann Institute of Science, Israel
+Lo’ay Abusalah PhD, University of Illinois at Chicago
+Rashid Ansari PhD, Princeton University
+Jezekiel Ben-Arie PhD, Technion, Israel Institute of Technology
+Vahe Caliskan, ScD, Massachusetts Institute of Technology|
+Enis Cetin PhD, University of Pennsylvania
+Natasha Devroye PhD, Harvard University
+Shantanu Dutt PhD, University of Michigan
+Mitra Dutta PhD, University of Cincinnati
+Danilo Erricolo PhD, University of Illinois at Chicago
+Alan D. Feinerman PhD, Northwestern University
+Kimberly Fitzgerald, MS, University of Illinois at Chicago
+Erdem Koyuncu PhD, University of California, Irvine
+Ning Jin PhD, University of Illinois at Chicago
+James C. Lin PhD, University of Washington
+Derong Liu PhD, University of Notre Dame
+Sudip Mazumder PhD, Virginia Tech
+Vitali Metlushko PhD, Moscow State University
+Igor Paprotny PhD, Dartmouth College
+Wenjing Rao PhD, University of Califorinia, San Diego
+Dan Schonfeld PhD, Johns Hopkins University
+Hulya Seferoglu PhD, University of California, Irvine
+Junxia (Lucy) Shi PhD, Cornell University
+Besma Smida PhD, University of Quebec
+Mojtaba Soltanalian PhD, Uppsala University (Sweden)
+Michael A. Stroscio PhD, Yale University
+Amit Trivedi PhD, Georgia Institute of Technology
+Daniela Tuninetti PhD, Eurecom Institute (Telecom, Paris)
+Piergiorgio L. Uslenghi PhD, University of Michigan
+Hung-Yu Yang PhD, University of California, Los Angeles
+Zheng Yang PhD, University of California, Riverside
+Milos Zefran PhD, University of Pennsylvania
+Zhao Zhang PhD, College of William and Mary
+Zhichun Zhu PhD, College of William and Mary
+Jeremiah T. Abiade PhD, University of Florida
+Suresh K. Aggarwal PhD, Georgia Institute of Technology
+Max Berniker PhD, Massachusetts Institute of Technology
+Kenneth Brezinsky PhD, City University of New York
+Sabri Cetin PhD, Georgia Institute of Technology
+Houshang Darabi PhD, Rutgers University
+Hamed Hatami-Marbini PhD, Rensselear Polytechnic Institute
+David W. He PhD, University of Iowa
+Mengqi Hu PhD, Arizona State University
+Erica Jung PhD, Cornell University
+Myunghee Kim PhD, Carnegie Mellon University
+Lin Li PhD, University of Michigan
+Carmen M. Lilley PhD, Northwestern University
+Patrick Lynch PhD, University of Illinois at Urbana-Champaign
+Farzad Mashayek PhD, State University of New York at Buffalo
+Constantine M. Megaridis PhD, Brown University
+W. J. Minkowycz PhD, University of Minnesota
+Parisa Mirbod PhD, City University of New York
+Yayue Pan PhD, University of Southern California
+Laxman Saggere PhD, University of Michigan–Ann Arbor
+Amin Salehi-Khojin PhD, Clemson University
+Michael J. Scott PhD, California Institute of Technology
+Ahmed A. Shabana PhD, University of Iowa
+Reza Shahbazian-Yassar PhD, Washington State University
+Arunkumar Subramanian PhD, Swiss Federal Institute of Technology(Switzerland)
+Jie Xu PhD, Columbia University
+Alexander Yarin PhD, Institute for Problems in Mechanics, USSR Academy of Science (Moscow, Russia)

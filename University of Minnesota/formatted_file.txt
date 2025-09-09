@@ -1,0 +1,1453 @@
+Balas, Gary J., Distinguished
+McKnight University Professor
+Ph.D., California Institute of Technology
+Aerospace control systems; non-linear
+control theory, robust control theory and
+experiments
+Beavers, Gordon S., Professor
+Emeritus
+Ph.D., Cambridge University
+Experimental fluid mechanics,
+rheological fluid mechanics
+Candler, Graham V., Distinguished
+McKnight University Professor
+Ph.D., Stanford University
+Hypersonic aerodynamics,
+computational fluid dynamics, hightemperature gas physics thermochemical
+non-equilibrium flows
+Elliott, Ryan, Assistant Professor
+Ph.D., University of Michigan
+Martensitic phase transformations,
+shape memory alloys, atomistic
+materials simulation, stability and
+bifurcation.
+Ericksen, Jerry L., Professor
+Emeritus
+Ph.D., Indiana University
+Nonlinear continuum theories, behavior
+of real materials, crystals and liquid
+crystals
+Fosdick, Roger L., Professor
+Ph.D., Brown University
+Thermodynamics continuum mechanics,
+non-linear material behavior applied
+mathematics
+679
+Garrard, William L., Professor and
+Director, Minnesota Space Grant
+Consortium
+Ph.D., University of Texas, Austin
+Dynamics and control of aerospace
+vehicles, stability and control of
+nonlinear systems, control of gas
+turbines, parachute dynamics
+Gebre-Egziabher, Demoz, P.E.,
+Associate Professor,
+Ph.D., Stanford University
+Sensor fusion, design of multi-sensor
+systems for navigation, guidance and
+control of aerospace vehicles, GPS,
+inertial navigation, GPS-based precision
+landing systems
+Hammer, Jeff, P.E., Industrial
+Professor of Design
+B.A.E., University of Minnesota
+Systems engineering, design analysis
+by simulation and experimental means,
+extensive industrial experience in
+systems simulation, control, design, and
+marketing
+Hsiao, C. C., Professor Emeritus
+Ph.D., Massachusetts Institute of
+Technology
+Polymer mechanics, composite materials
+James, Richard D., Russell J.
+Penrose Professor and Distinguished
+McKnight University Professor
+Ph.D., Johns Hopkins University
+Thermodynamics of solids, phase
+transformations, micromagnetics, active
+materials, especially shape memory
+materials, multiscale mathematical
+methods
+Joseph, Daniel D., Regents Professor
+Emeritus
+Ph.D., Illinois Institute of Technology
+Two phase flow, rheology, fluid
+mechanics, stability bifurcation
+Leo, Perry H., Professor
+Ph.D., Carnegie Mellon University
+Phase transformations, micromechanics
+of defects in solids, biological materials,
+composite materials
+Longmire, Ellen K., Professor
+Ph.D., Stanford University
+Experimental fluid mechanics, particleladen and multiphase flow, turbulence,
+vortex dynamics microscale flows
+Lundgren, Thomas S., Professor
+Emeritus
+Ph.D., University of Minnesota
+Fluid mechanics, turbulence, rotating
+flows and numerical analysis, composite
+fluids (multiphase flows)
+Mahesh, Krishnan, Professor
+Ph.D., Stanford University
+Numerical simulation and modeling of
+fluid flows
+Mettler, Bernard, Assistant Professor
+Ph.D., Carnegie Mellon University
+Autonomous guidance and control,
+trajectory planning, automated
+maneuvering, environment and task
+representation, system identification
+modeling
+Plunkett, Robert, Professor Emeritus
+Sc.D., Massachusetts Institute of
+Technology
+Structural dynamics, fluid-solid
+interaction, composite materials,
+vibrational control
+Schwartzentruber, Thomas E.,
+Assistant Professor
+Ph.D., University of Michigan
+Particle simulation methods,
+hypersonics, hybrid particle-continuum
+methods
+Sheng, Jian, Assistant Professor
+Ph.D. Mechanical Engineering, Johns
+Hopkins University
+Wall deformation and 3-D flow
+structures. prey induced changes on
+predatory dinoflagellates, Theory of
+Turbulance
+Shield, Thomas W., Professor
+Ph.D., University of California, Berkeley
+Experimental solid mechanics,
+mechanics of materials, elasticity, single
+crystal plasticity, shape-memory and
+magnetostrictive materials, fracture
+mechanics
+Stolarik, Eugene, Professor Emeritus
+M.A., M.S., University of Minnesota
+Flight mechanics of aircraft and reentry
+vehicles, V/STOL aerodynamics
+Tadmor, Ellad, Professor
+Ph.D., Brown University
+Multiscale modeling of solids,
+continuum/atomistic computations,
+Quasicontinuum (QC) Method
+Warner, William H., Professor
+Emeritus
+Ph.D., Carnegie Institute of Technology
+Optimal design, thick plate and shell
+problems
+Wilson, Theodore A., Professor
+Emeritus
+Ph.D., Cornell University
+Respiratory mechanics: lung structure
+and deformation, respiratory flow, chest
+wall mechanics
+Zhao, Yiyuan, Professor
+Ph.D., Stanford University
+Guidance/control, optimization,
+dynamics, air-traffic management,
+rotocraft flight trajectories
+Barney, Brett, Assistant Professor
+Ph.D., Arizona State
+Biosynthesis of alternative fuels and
+high value products
+Bhattacharya, Mrinal, Professor
+Ph.D., University of Nebraska
+Biodegradable polymers, biomaterials,
+tissue engineering, biosensors
+Bowyer, James L., Professor
+Emeritus
+Ph.D., University of Minnesota
+Applied wood science, life cycle analysis,
+environmental and forest policy
+Chaplin, Jonathan, P.E., Professor
+Ph.D., Iowa State University
+Engineering safety, machinery systems
+design, instrumentation and control,
+energy systems
+Chapman, John, Program Director
+M.S., University of Wisconsin Madison
+Soil erosion and sediment control
+Clanton, Charles, P.E., Professor
+Ph.D., University of Minnesota
+Manure management: water and air
+quality, odor, manure storage, land
+application, and nutrient management
+Erickson, Robert W., Professor
+Emeritus
+Ph.D., University of Minnesota
+Wood physics and moisture relations
+Gertjejansen, Roland O., Professor
+Emeritus
+Ph.D., University of Minnesota
+Fiber and particle products technology
+Goodrich, Philip, P.E., Associate
+Professor Emeritus
+Ph.D., Purdue University
+Biomass renewable energy systems,
+odor control
+Grimsrud, David T., Professor
+Emeritus
+Ph.D., University of Minnesota
+Indoor air quality and building energy
+efficiency
+Hendricks, Lewis T., Professor
+Emeritus
+Ph.D., Michigan State University
+Energy efficient buildings
+Hu, Bo
+Ph.D., Washington State University
+Bioprocess development for bioenergy,
+biomaterials, and bioproducts
+Huelman, Patrick, Associate
+Professor and Extension Educator
+M.S., Iowa State University
+Energy efficient buildings
+Izuno, Forrest, Professor
+Ph.D., Colorado State University
+Water management, irrigation, drainage,
+water quality
+Jacobson, Larry, P.E., Professor,
+Extension Engineer
+Ph.D., University of Minnesota
+Environmentally friendly and energy
+conserving animal housing systems,
+airborne emissions, odor control, indoor
+air quality for agricultural, industrial,
+and residential buildings, waste
+management
+Janni, Kevin, P.E., Professor,
+Ph.D., Purdue University
+Animal housing systems, ventilation,
+odor control, air quality, biofiltration
+Morey, R. Vance, Professor
+Ph.D., Purdue University
+Biomass densification, biomass for
+electricity and process heat at ethanol
+plants, post-harvest technology
+Nieber, John, P.E., Professor
+Ph.D., Cornell University
+Watershed hydrology, biogeochemistry
+of watersheds, wetland hydrology,
+engineering of water resources quantity
+and quality, flow and transport in
+geological media and biological systems
+Petersen, Harlan D., Assistant
+Professor Emeritus and Extension
+Educator
+M.S., University of Minnesota
+Wood drying and moisture relations
+Ramaswamy, Shri, Professor and
+Department Head
+Ph.D., State University of New York
+Paper science and engineering
+Ruan, Roger, Professor
+Ph.D., University of Illinois
+Food engineering, value-added
+processing, biorefining, renewable
+energy, MRI and NMR applications,
+non-thermal plasma
+Sands, Gary, Associate Professor and
+Extension Engineer
+Ph.D., Colorado State University
+Hydrology, water quality, water
+resources conservation and management
+Sarkanen, Simo, Professor
+Ph.D., University of Washington
+Wood and lignin chemistry
+Schilling, Jonathan, Assistant
+Professor
+Ph.D., University of Maine
+Biodeterioration and biodegradation
+Schmidt, David, Assistant Extension
+Engineer
+M.S. University of Minnesota
+Air quality and manure management
+Schmidt, Elmer L., Professor
+Emeritus
+Ph.D., University of Minnesota
+Wood deterioration/protection
+Seavey, Robert, Research Associate
+and Instructor
+Ph.D., University of Minnesota
+Wood physics
+Severtson, Steven J., Associate
+Professor
+Ph.D., Institute of Paper Science and
+Technology
+Shutske, John, Professor and
+Extension Agricultural Safety and
+Health Specialist
+Ph.D., Purdue University
+Safe design of products and production
+systems, homeland security risk
+assessment and communication, worker/
+public health impacts from technology/
+demographic change in biological
+industries
+Smith, Timothy M., Associate
+Professor
+Ph.D., Penn State University
+Environmental communications,
+integrated marketing communications,
+new product development
+680
+University of Minnesota Twin Cities 2010–12 Undergraduate Catalog
+Suh, Sangwon, Assistant Professor
+Ph.D., Leiden University, Netherlands
+Corporate environmental management,
+life cycle assessment, industrial ecology
+Tschirner, Ulrike, Professor
+Ph.D., University of Karlsruhe, Germany
+Lignin chemistry
+Tze, William T. Y., Assistant Professor
+Ph.D., University of Maine
+Bio-composites, adhesion interphase,
+and micro-analyses
+Wilcke, William, P.E. (Iowa),
+Professor and Extension Engineer
+Ph.D., Iowa State University
+Post-harvest technology, sustainable
+agriculture, agricultural energy sources
+Wilson, Bruce, P.E. (Oklahoma),
+Professor
+Ph.D., University of Kentucky
+Hydrologic/water quality modeling,
+transport of surface water contaminants
+Winandy, Jerrold, Adjunct Faculty
+Ph.D., Oregon State University
+Engineered biocomposites engineering
+properties of wood
+Wright, Jerry, P.E., Associate
+Professor and Extension Engineer
+M.S., North Dakota State University
+Irrigation design, irrigation water
+management, drainage design, ground
+water quality
+Zhu, Jun, Professor and Extension
+Engineer
+Ph.D., University of Illinois
+Animal waste management and
+treatment techniques, manure odor
+control, nutrient recycling, renewable
+energy
+Biomedical Engineering
+Akkin, Taner, Assistant Professor
+Ph.D., University of Texas, Austin
+Biomedical optics and imaging
+Ashkenazi, Shai, Assistant Professor
+Ph.D., Physics, Weizmann Institute of
+Science, Rehovot, Israel
+Optoacoustic technology and
+photoacoustic imaging
+Barocas, Victor H., Professor and
+Director of Graduate Studies
+Ph.D., University of Minnesota
+Tissue engineering, ocular biomechanics,
+microfluidics, computer modeling
+Bischof, John C., Distinguished
+McKnight University Professor
+Ph.D., University of California, Berkeley
+Experimental techniques to measure
+biophysics in cells and tissues during
+freezing, improved cryopreservation
+of sperm and tissue systems,
+characterization of cell injury
+He, Bin, Distinguished McKnight
+University Professor and Director of
+Undergraduate Studies
+Ph.D., Tokyo Institute of Technology
+Functional biomedical imaging,
+electrophysiological neuroimaging,
+electrocardiographic tomography
+Johnson, Mathew D., Assistant
+Professor
+Ph.D. Biomedical Engineering,
+University of Michigan
+Neural interface technologies,
+therapeutic mechanisms of
+neuromodulation
+Lim, Hubert H., Assistant Professor
+Ph.D., Biomedical Engineering,
+University of Michigan
+Development and translation of brainmachine interfaces
+Netoff, Theoden I., Assistant
+Professor
+Ph.D. Neuroscience, George Washington
+University
+Epilepsy, How inhibitory neurons play a
+role in seizure activity
+Odde, David J., Professor
+Ph.D., Rutgers University
+Cytoskeletal basis of cell growth and
+division
+Sachs, Jonathan N., Assistant
+Professor
+Ph.D., Johns Hopkins University
+Molecular-level membrane interactions
+Shen, Wei, Assistant Professor
+Ph.D., California Institute of Technology
+Biomaterials, tissue engineering,
+biomolecular engineering, cell-material
+interactions
+Siegel, Ronald A., Professor
+Sc.D., Massachusetts Institute of
+Technology
+Drug/delivery, hydrogels,
+microfabrication, pharmacodynamics
+Talkachova, Alena, Assistant Professor
+Ph.D., Nonlinear optics & laser physics,
+Nice University, Nice France
+Electrical activity of cardiac cells and
+whole heart from a nonlinear dynamics
+perspective, mechanisms of complex
+cardiac rhythms leading to ventricular
+fibrillation
+Tranquillo, Robert T., Professor and
+Department Head
+Ph.D., University of Pennsylvania
+Cardiovascular and neural tissue
+engineering, cell
+Wang, Chun, Assistant Professor
+Ph.D., University of Utah
+Biomaterials for drug and gene delivery
+and tissue engineering
+Chemical Engineering and
+Materials Science
+Aydil, Eray, Professor
+Ph.D., University of Houston
+Reaction engineering of electronic
+materials, thin film deposition and
+etching, Photovoltaics
+Bates, Frank S., Distinguished
+McKnight Professor, Regents
+Professor, and Head
+Sc.D., Massachusetts Institute of
+Technology
+Thermodynamics and dynamics of
+polymers and polymer mixtures
+Bhan, Aditya, Assistant Professor
+Ph.D., Purdue University
+Reaction Engineering, heterogeneous
+catalysis, computational chemistry,
+energy
+Caretta, Raul, Professor
+Ph.D., University of Minnesota
+Unit operations, safety, surface
+characterization
+Carr, Robert W., Professor Emeritus
+Ph.D. University of Rochester
+Chemical kinetics, reaction engineering
+Cococcioni, Matteo, Assistant
+Professor
+Ph.D., International School for
+Advances Studies (SISSA)
+Electronic conduction, cathode
+materials, electron transfer reactions
+Cussler, Edward L., Professor
+Ph.D., University of Wisconsin
+Mass transfer, novel separation
+processes
+Dahler, John S., Professor Emeritus
+Ph.D., University of Wisconsin
+Nonequilibrium statistical mechanics,
+atomic collision theory
+Daoutidis, Prodromos, Professor
+Ph.D., University of Michigan
+Nonlinear process control, process
+analysis and design
+Derby, Jeffrey J., Distinguished
+McKnight University Professor
+Ph.D., Massachusetts Institute of
+Technology
+Process modeling, materials processing,
+high-performance computing
+Dorfman, Kevin, Assistant Professor
+Ph.D., Massachusetts Institute of
+Technology
+Transport phenomena, microfluidics,
+electrophoresis, biophysics
+Francis, Lorraine Falter, Professor
+Ph.D., University of Illinois at UrbanaChampaign
+Ceramics processing, electrical and
+mechanical properties of ceramics
+Fredrickson, Arnold G., Professor
+Emeritus
+Ph.D., University of Wisconsin
+Biochemical engineering, microbial
+populations
+Frisbie, C. Daniel, Professor
+Ph.D., Massachusetts Institute of
+Technology
+Organic electronic materials, materials
+chemistry
+Gerberich, William W., Professor
+Ph.D., University of California, Berkeley
+Fracture micromechanics, interfacial
+defects
+Holmes, Russell J., Assistant
+Professor
+Ph.D., Princeton University
+Electrical and optical properties of
+organic thin films, optoelectronic
+devices, solid state lighting, solar energy
+conversion
+Hu, Wei-Shou, Distinguished
+McKnight University Professor
+Ph.D., Massachusetts Institute of
+Technology
+Biochemical engineering, mammalian
+cell cultures
+Kaznessis, Yiannis, Associate
+Professor
+Ph.D., University of Notre Dame
+Computer modeling of biological
+systems, bioinformatics
+Kokkoli, Efrosini, Associate Professor
+Ph.D., University of Illinois, UrbanaChampaign
+Biomimetric surface science,
+bioengineering, biomaterials, colloidal
+interactions
+Kumar, Satish, Associate Professor
+Ph.D., Stanford University
+Transport processes, interfacial
+phenomena, microfluidics
+Leighton, Christopher, Associate
+Professor
+Ph.D., University of Durham, England
+Magnetic and electronic properties of
+thin film, magnetic materials
+Macosko, Christopher W., Professor
+Ph.D., Princeton University
+Polymer processing, rheology, polymer
+networks and blends
+McCormick, Alon V., Professor
+Ph.D., University of California, Berkeley
+Ceramic synthesis, adsorption and
+diffusion, polymerization kinetics
+Mkhoyan, K. Andre, Assistant
+Professor
+Ph.D., Applied Physics, Cornell
+University
+Analytical electron microscopy and
+spectroscopy, nanomaterials, defects and
+interface
+Morse, David C., Associate Professor
+Ph.D., University of Pennsylvania
+Macromolecular and complex fluids,
+statistical mechanics and dynamics
+Norris, David J., Professor
+Ph.D., Massachusetts Institute of
+Technology
+Photonic crystals, nanomaterials,
+molecular spintronics
+Oriani, Richard A., Professor
+Emeritus
+M.A., Ph.D., Princeton University
+Corrosion, thermodynamics of solids,
+cold fusion
+Schmidt, Lanny D., Regents
+Professor
+Ph.D., University of Chicago
+Surface chemistry, catalysis and reactor
+modeling
+Seidel, Robert W., Professor
+Ph.D., University of California, Berkeley
+History of science and technology
+Shores, David A., Professor
+Ph.D., Pennsylvania State University
+High temperature corrosion, fuel cells
+Sivertsen, Jack M., Associate
+Professor Emeritus
+Ph.D., University of Illinois, UrbanaChampaign
+Magnetic, microelectronic, and
+tribological materials
+Smyrl, William H., Professor
+Ph.D., University of California, Berkeley
+Electrochemical engineering, modeling
+electrochemical systems
+Srienc, Friedrich, Professor
+Ph.D., Technical University of Graz
+Biochemical engineering, cell cycle
+kinetics
+Tsapatsis, Michael, Professor
+Ph.D., California Institute of Technology
+Materials, separations, catalysis
+Wentzcovitch, Renata M. M., Professor
+Ph.D., University of California, Berkeley
+Electronic and structural properties of
+solids, ab initio molecular dynamics
+Arndt, Roger E. A., Professor
+Ph.D., Massachusetts Institute of
+Technology
+Cavitation and bubble dynamics,
+hydropower, noise generated by fluid
+flow
+Arnold, William A., Associate
+Professor
+Ph.D., Johns Hopkins University
+Transformations of anthropogenic
+chemicals aquatic systems, partitioning
+and fate of organic chemicals
+Ballarini, Roberto, Professor
+Ph.D., Northwestern University
+Mechanics of manmade and biological
+solids and structures, fracture and
+fatigue, micro and nanotechnology
+Barnes, Randal J., Associate
+Professor
+Ph.D., Colorado School of Mines
+Applied statistics, mathematical
+modeling, groundwater mechanics
+Brezonik, Patrick L., Professor
+Ph.D., University of Wisconsin
+Impacts of human activity on water
+quality/chemistry
+Capel, Paul D., Adjunct Professor
+Ph.D., University of Minnesota
+Environmental water chemistry,
+chemodynamics, fate and transport
+Crouch, Steven L., Professor
+Ph.D., University of Minnesota
+Boundary element methods applied to
+rock mechanics problems
+Davis, Gary A., Professor
+Ph.D., University of Washington
+Statistics in transportation planning,
+traffic control, traffic safety
+Detournay, Emmanuel, Professor
+Ph.D., University of Minnesota
+Mathematical modeling of
+geomechanical processes, poroelasticity
+Drescher, Andrew, Professor
+Dr. Inz., Institute of Fundamental
+Technological Research, Poland
+Testing and modeling mechanical
+behavior of geomaterials
+Foufoula-Georgiou, Efi, Professor
+Ph.D., University of Florida
+Stochastic hydrology, multiscale
+processes, landform morphology,
+climate modeling
+French, Catherine E., Professor
+Ph.D., University of Illinois
+Concrete behavior, materials/structural
+systems, earthquake engineering,
+durability
+Galambos, Theodore V., Professor
+Emeritus
+Ph.D., Lehigh University
+Structural stability, behavior and design
+Gulliver, John S., Professor
+Ph.D., University of Minnesota
+Environmental fluid mechanics,
+chemical fate and transport
+Guzina, Bojan B., Professor
+Ph.D., University of Colorado
+Mathematical modeling of
+wave propagation, seismic site
+characterization
+Hill, Kimberly, Assistant Professor
+Ph.D., University of Minnesota
+Granular flows and segregation, nonNewtonian fluids
+Hondzo, Miki, Professor
+Ph.D., University of Minnesota
+Experimental work and numerical
+prediction techniques in environmental
+fluid dynamics
+Hozalski, Raymond M., Associate
+Professor
+Ph.D., Johns Hopkins University
+Water/wastewater treatment, biofilms,
+natural organic matter characterization
+Khazanovich, Lev, Associate
+Professor
+Ph.D., University of Illinois, UrbanaChampaign
+Concrete and asphalt pavements, finite
+element analysis of soil-structure
+interaction
+Labuz, Joseph F., Professor
+Ph.D., Northwestern University
+Experimental geomechanics, fracture of
+quasi-brittle materials
+LaPara, Timothy, Associate Professor
+Ph.D., Purdue University
+Biological wastewater treatment,
+wastewater microbiology, environmental
+microbiology, structure-function
+relationships in mixed microbial
+communities, microbial ecology,
+microbial evolution
+Levinson, David M., Associate
+Professor
+Ph.D. University of California, Berkeley
+Transportation economics and financing,
+network deployment, integrated
+transportation and land use planning
+Liu, Henry, Assistant Professor
+Ph.D., University of Wisconsin
+Traffic controlled operations,
+transportation network modeling
+Marasteanu, Mihai, Associate
+Professor
+Ph.D., Pennsylvania State University
+Applications of fundamental theories to
+bituminous materials characterization,
+modeling, and experimental testing
+Marshall, Julian, Assistant Professor
+Ph.D., University of California, Berkeley
+Urban air pollution, energy and environmental impacts of transportation,
+sustainability, urban design,
+environmental issues in Asia
+Novak, Paige J., Associate Professor
+Ph.D., University of Iowa
+Toxic compound biodegradation,
+interactions between anaerobes and
+metals
+Porte-Agel, Fernando, Associate
+Professor
+Ph.D., Johns Hopkins University
+Fluid mechanics in the environment,
+hydrology, micrometerology,
+atmospheric boundary layer
+Schultz, Arturo E., Professor
+Ph.D., University of Illinois, UrbanaChampaign
+Concrete behavior, masonry systems,
+steel-concrete construction, earthquake
+engineering
+Semmens, Michael J., Professor
+Ph.D., University College London
+Physical-chemical processes in
+environmental science and engineering
+Shield, Carol K., Professor
+Ph.D., University of Illinois, UrbanaChampaign
+Solid mechanics modeling, composite
+materials
+*Smith, Karl A., Professor
+Ph.D., University of Minnesota
+Project management, modeling systems,
+engineering education
+Sotiropoulos, Fotis, Professor
+Ph.D., University of Cincinnati
+Computational fluid dynamics for
+engineering, environmental, biological,
+and cardiovascular applications
+Stefan, Heinz G., Professor
+Ph.D., University Paul Sabatier,
+Toulouse, France
+Water quality modeling, environmental
+fluid mechanics, hydraulic structures
+Stolarski, Henryk K., Professor
+Ph.D., Institute of Fundamental
+Technological Research, Warsaw, Poland
+Nonlinear structural mechanics, plates
+and shells, computational mechanics
+Strack, Otto D. L., Professor
+Dr. Ir., Delft University of Technology,
+Netherlands
+Computer and mathematical modeling of
+groundwater and transport
+Voller, Vaughan R., Professor
+Ph.D., Sunderland Polytechnic, U.K.
+Numerical modeling of free and moving
+boundary problems
+Wojtkiewicz, Steven F., Assistant
+Professor
+Ph.D., University of Illinois, UrbanaChampaign
+Stochastic modeling, control of
+structural systems
+Computer Science
+Banerjee, Arindam, Assistant
+Professor
+Ph.D., University of Texas, Austin
+Machine learning, data mining,
+information theory, convex analysis,
+computational games
+682
+University of Minnesota Twin Cities 2010–12 Undergraduate Catalog
+Boley, Daniel, Professor
+Ph.D., Stanford University
+Numerical analysis, linear algebra,
+control theory, machine learning
+Carlis, John, Professor
+Ph.D., University of Minnesota
+Database systems
+Chandra, Abhishek, Assistant
+Professor
+Ph.D., University of Massachusetts,
+Amherst
+Operating systems, computer
+networking, distributed systems
+Du, David Hung-Chuang, Professor
+Ph.D., University of Washington, Seattle
+High-speed networking, multimedia
+applications, high-performance
+computing
+Gini, Maria, Professor
+Doctor of Physics, University of Milan
+Artificial intelligence, robotics
+He, Tian, Assistant Professor
+Ph.D., University of Virginia
+Wireless sensor networks, distributed
+systems, real-time computing
+Heimdahl, Mats, Professor
+Ph.D., University of California, Irvine
+Software engineering, safety critical
+systems
+Hopper, Nicholas, Assistant
+Professor
+Ph.D., Carnegie Mellon University
+Cryptography, computer security,
+algorithms and complexity
+Interrante, Victoria, Associate
+Professor
+Ph.D., North Carolina at Chapel Hill
+Visualization, visual perception,
+computer graphics, image processing,
+virtual reality
+Isler, Volkan I., Assistant Professor
+Ph.D., University of Pennsylvania
+Robotics and automation; sensor
+networks; geometric algorithms
+Janardan, Ravi, Professor
+Ph.D., Purdue University
+Computational geometry, algorithm and
+data structure design, computer graphics
+Karypis, George, Professor
+Ph.D., University of Minnesota
+Data mining, bioinformatics,
+information retrieval, e-commerce,
+parallel processing
+Keefe, Daniel F., Assistant Professor
+Kim, Yongdae, Associate Professor
+Ph.D., University of Southern California
+Group security, network security
+Konstan, Joseph, Distinguished
+McKnight University Professor
+Ph.D., University of California, Berkeley
+Human-computer interaction, collaborative filtering, multimedia systems,
+hypermedia
+Kuang, Rui, Assistant Professor
+Ph.D., Columbia University
+Computational biology, machine
+learning
+Kumar, Vipin, Professor
+Ph.D., University of Maryland
+Data mining, bioinformatics, high
+performance computing
+Meyer, Gary, Associate Professor
+Ph.D., Cornell University
+Computer graphics, color synthesis and
+reproduction
+Mokbel, Mohamed, Assistant
+Professor
+Ph.D., Purdue University
+Databases, data stream management
+systems, spatio-temporal databases,
+scalable continuous query processing
+Myers, Chad, Assistant Professor
+Ph.D., Princeton University
+Computational biology, functional
+genomics, machine learning.
+Nadathur, Gopalan, Professor
+Ph.D., Pennsylvania State University
+Computational logic, programming
+language design and implementation
+Norberg, Arthur, Professor Emeritus
+Ph.D., University of Wisconsin
+History of science and technology
+Papanikolopoulos, Nikolaos,
+Professor
+Ph.D., Carnegie Mellon University
+Robotics, computer vision, sensors for
+transportation applications
+Riedl, John, Professor
+Ph.D., Purdue University
+Collaborative systems, database systems,
+fault tolerance, computer networks,
+object-oriented systems
+Roumeliotis, Stergios, Associate
+Professor
+Ph.D., University of Southern California
+Robotics, autonomous vehicle
+navigation, distributed robotics
+Rosen, J. Ben, Professor Emeritus
+Ph.D., Columbia University
+Numerical optimization, parallel
+computing
+Saad, Yousef, Professor
+Doctorat, University of Grenoble,
+France
+Sparse matrix computations, parallel
+computation, eigenvalue problems,
+nonlinear equations
+Schrater, Paul, Associate Professor
+Ph.D., California State University, Long
+Beach
+Human and computer vision, motor
+control and haptics, statistical inference,
+pattern recognition
+Schuler, William, Associate Professor
+Ph.D., University of Pennsylvania
+Speech and natural language processing
+Shekhar, Shashi, Distinguished
+McKnight University Professor
+Ph.D., University of California, Berkeley
+Data and knowledge engineering, spatial
+database, geographic information
+systems
+Shragowitz, Eugene, Professor
+Ph.D., National Science Research
+Laboratory, Moscow
+Computer aided design (CAD) of
+electronic systems, soft computing,
+combinatorial optimization
+Slagle, James R., Professor Emeritus
+Ph.D., Massachusetts Institute of
+Technology
+Artificial intelligence (expert systems,
+neural networks, automated temporal
+logic)
+Srivastava, Jaideep, Professor
+Ph.D., University of California, Berkeley
+Databases, multimedia systems, data
+mining
+Stein, Marvin, Professor Emeritus
+Ph.D., University of California, Los
+Angeles
+Machine arithmetic, organization of
+programming systems
+Terveen, Loren, Associate Professor
+Ph.D., University of Texas at Austin
+Human-computer interaction, computersupported cooperative work
+Tripathi, Anand, Professor
+Ph.D., University of Texas at Austin
+Distributed and network computing
+systems, object-oriented programming
+Van Wyk, Erik, Associate Professor
+Ph.D., University of Iowa
+Programming languages
+Weissman, Jon, Associate Professor
+Ph.D., University of Virginia
+Distributed systems, metacomputing,
+cluster computing
+Yew, Pen-Chung, Professor
+Ph.D., University of Illinois, UrbanaChampaign
+Computer architecture, parallel machine
+design, parallelizing compilers
+Zhai, Antonia, Assistant Professor
+Ph.D., Carnegie Mellon University
+Computer architectures, compiler
+optimizations, operating systems.
+Zhang, Zhi-Li, Professor
+Ph.D., University of Massachusetts
+Computer networking and multimedia
+systems
+Electrical Engineering
+Albertson, Vernon D., P.E., Professor
+Emeritus
+Ph.D., University of Wisconsin,
+Madison
+Electric power analysis and transients,
+geomagnetic pulse effects
+Amin, Massoud, Professor and
+Director for the Development of
+Technological Leadership
+D.Sc., Washington University
+Reconfigurable and self-repairing
+controls, infrastructure security
+Bailey, Fredric N., Professor
+Emeritus
+Ph.D., University of Michigan
+Control systems, integrating new semiconductor technology
+Bazargan, Kiarash, Associate
+Professor
+Ph.D., Northwestern University
+Computer-aided design of VLSI
+Campbell, Stephen A., Professor
+Ph.D., Northwestern University
+Materials and fabrication processes for
+silicon-based structures
+Champlin, Keith S., Professor
+Emeritus
+Ph.D., University of Minnesota
+New devices for fabricating monolithic
+microwave integrated circuits
+Cherkassky, Vladimir S., Professor
+Ph.D., University of Texas at Austin
+Parallel processing, computer networks,
+fault-tolerant computing
+Cohen, Philip I., Professor
+Ph.D., University of Wisconsin,
+Madison
+Microelectronics materials, crystal
+growth
+Ebbini, Emal S., Professor
+Ph.D., University of Illinois, Urbana
+Digital signal processing and biomedical
+engineering
+Ernie, Douglas W., Associate
+Professor
+Ph.D., University of Minnesota
+Gaseous electronics and plasma
+engineering
+Franklin, Rhonda R., Associate
+Professor
+Ph.D., EE, 1995, University of Michigan
+Passives, interconnects, and integrated
+packages for RF, microwave, and
+millimeter wave applications.
+Georgiou, Tryphon T., Professor
+Ph.D., University of Florida
+Control and systems theory, recursive
+modeling and identification
+Giannakis, Georgios B., Professor
+Ph.D., University of Southern California
+Statistical signal processing and its
+application to wired and wireless
+communications
+Gopinath, Anand, Professor
+Ph.D., University of Sheffield
+Microelectronics, microwaves, optics,
+optoelectronic devices
+Harjani, Ramesh, Professor
+Ph.D., Carnegie Mellon University
+Computer-aided design of analog
+circuits
+Higman, Ted K., Associate Professor
+Ph.D., University of Illinois
+Electron device fabrication
+Holte, James E., Associate Professor
+Ph.D., University of Minnesota
+Bioelectrical sciences and biomedical
+engineering
+Jacobs, Heiko, Associate Professor
+Ph.D., ETH in Zurich
+Micro- and nanotechnology
+Jindal, Nihar, Assistant Professor
+Ph.D., Stanford University
+Information theory, communication
+theory
+Jovanovic, Mihaile, Assistant
+Professor
+Ph.D., University of California, Santa
+Barbara
+Distributed control systems
+Judy, Jack H., Professor Emeritus
+Ph.D., University of Minnesota
+Magnetics and magnetic recording,
+multilayer thin film materials
+Kain, Richard Y., Professor Emeritus
+Sc.D, Massachusetts Institute of
+Technology
+Computer system architecture
+Kaveh, Mostafa, Professor and
+Associate Dean for Research and
+Planning
+Ph.D., Purdue University
+Statistical signal processing,
+communications, and image processing
+Kieffer, John, Professor
+Ph.D., University of Illinois, UrbanaChampaign
+Information theory, communications,
+digital signal processing
+Kim, Hyung-il, (Chris), Associate
+Professor
+Ph.D., Purdue University
+High performance, low power VLSI
+design
+Kinney, Larry L., Professor
+Ph.D., University of Iowa
+Digital system and digital computer
+design
+Koester, Steven J., Professor
+Ph.D., Electrical & Computer
+Engineering, University of California,
+Santa Barbara
+Micro- and nanoelectronics,
+optoelectronic devices, photovoltaics,
+energy harvesting, and biomedical
+devices
+Kumar, K. S. P., Professor Emeritus
+Ph.D., Purdue University
+Adaptive control, self-tuning regulators,
+and system identification
+Lambert, Robert F., Professor
+Emeritus
+Ph.D., University of Minnesota
+Acoustics, computer-controlled
+automatic measurement of sound
+Lee, Thomas (Shao-Chung) S.,
+Professor Emeritus
+Ph.D., University of Minnesota
+Waves and fluids
+Leger, James R., Professor
+Ph.D., University of California, San
+Diego
+Micro-optics, Fourier optics and
+holography
+683
+Lilja, David, Professor and
+Department Head
+Ph.D., University of Illinois, UrbanaChampaign
+High-performance computer
+architecture, parallel processing,
+supercomputing
+Luo, Zhi-Quan (Tom), Professor
+Ph.D., Massachusetts Institute of
+Technology
+Optimization, communication, signal
+processing
+Misa, Thomas, Professor
+Ph.D., University of Pennsylvania
+History and sociology of science
+Mohan, Ned, Professor
+Ph.D., University of Wisconsin,
+Madison
+Power electronics and electromechanics
+for motion control
+Nathan, Marshall I., Professor
+Emeritus
+Ph.D., Harvard University
+High speed III-V semiconductor device
+physics
+Oh, Sang-Hyun, Assistant Professor
+Ph.D., Stanford University
+Microsystems, biotechnology
+Parhi, Keshab K., Professor
+Ph.D., University of California, Berkeley
+VLSI signal and image processing
+Peria, William T., Professor
+Emeritus
+Ph.D., University of British Columbia
+Physical electronics, fabrication of
+integrated circuits
+Riedel, Marc, Assistant Professor
+Ph.D., California Institute of Technology
+Digital circuits, data structures and
+algorithms, computational biology
+Riaz, Mahmoud, Professor Emeritus
+Sc.D., Massachusetts Institute of
+Technology
+Electrical energy conversion, control,
+and processing
+Robbins, William P., Professor
+Ph.D., University of Washington
+Sonics and ultrasonics, sensors and
+microactuators
+Ruden, P. Paul, Professor
+Ph.D., University of Stuttgart, FRG
+Theory of novel semiconductor devices
+Salapaka, Murti, Associate Professor
+Ph.D., EE, University of California,
+Santa Barbara, CA
+Control and dynamic systems
+and application to nano- and biointerrogation
+Sapatnekar, Sachin, Distinguished
+McKnight University Professor
+Ph.D., University of Illinois at UrbanaChampaign
+Computer aided design of VLSI systems
+Sapiro, Guillermo, Professor
+D.Sc., Technion University, Israel
+Computer vision systems
+Sobelman, Gerald E., Associate
+Professor
+Ph.D., Harvard University
+VLSI design
+Stadler, Bethanie, Associate
+Professor
+Ph.D., Massachusetts Institute of
+Technology
+Advanced materials for devices and
+systems
+Talghader, Joseph, Professor
+Ph.D., University of California, Berkeley
+Microelectronics, optoelectronics
+Tewfik, Achmed H., Professor
+Sc.D., Massachusetts Institute of
+Technology
+Signal processing for multimedia
+Victora, Randall, Professor
+Ph.D., University of California, Berkeley
+Magnetics
+Wang, Jian Ping, Professor
+Ph.D., Chinese Academy of Science
+Magnetics, storage technology
+Warner, R. M., Jr., Professor Emeritus
+Ph.D., Case Institute of Technology
+Electronic device and circuit
+development
+Wollenberg, Bruce F., Professor
+Ph.D., University of Pennsylvania
+Power systems engineering
+Aksan, Alptekin, Assistant Professor
+Ph.D., Michigan State University
+Biopreservation/biothermodynamics,
+desiccation/vitrification phenomena,, applications of MEMS in bioengineering,
+bioheat and mass transfer
+Alexander, Jennifer K., Associate
+Professor
+Ph.D., University of Washington, Seattle
+Comparative history of industrial
+culture
+Arora, Sant Ram, Professor
+Ph.D., Johns Hopkins University
+Optimization concepts, resource
+allocation, capacity sizing, production
+facilities
+Benjaafar, Saifallah, Professor
+Ph.D., Purdue University
+Modeling, design and control of
+automated manufacturing of production
+systems
+Bischof, John C., Professor
+Ph.D., University of California, Berkeley
+Bioengineering, bioheat and mass
+transfer, cryobiology, hyperthermia
+Blackshear, Perry L., Jr., Professor
+Emeritus
+Ph.D., Case Institute of Technology
+Bioengineering, combustion, applied
+thermodynamics
+Carlsson, John G., Assistant Professor
+Ph.D., Stanford University
+Geographic and geometric optimization
+algorithms, transportation science,
+computational geometry
+Chase, Thomas R., Professor
+Ph.D., University of Minnesota
+Computer-aided design, mechanical
+engineering database, kinematics,
+machine design
+Cooper, William L., Associate
+Professor
+Ph.D., Georgia Institute of Technology
+Stochastic models, revenue management,
+queuing theory
+Cui, Tianhong, Associate Professor
+Ph.D., Chinese Academy of Sciences, Micro/nanomanufacturing, MEMS/
+mechanical systems), polymer/organic
+microelectronics
+Davidson, Jane H., Professor
+Ph.D., Duke University
+Fluid mechanics, solar energy,
+environmental engineering
+Donath, Max, Professor
+Ph.D., Massachusetts Institute of
+Technology
+Sensors and control systems as applied
+to robotics and vehicles
+Dumitrica, Traian, Assistant
+Professor
+Ph.D., Texas A & M
+Theoretical and computational aspects of
+materials science, mechanical properties,
+stability and behavior of distinct
+nanoscale objects
+Durfee, William K., Professor
+Ph.D., Massachusetts Institute of
+Technology
+Product design, real-time control,
+biomechanics, rehabilitation engineering
+Erdman, Arthur G., P.E., Professor
+Ph.D., Rensselaer Polytechnic Institute
+Computer-aided design, kinematics,
+biomechanics, microelectromechanical
+systems
+Fletcher, Edward A., Professor
+Emeritus
+Ph.D., Purdue University
+Applied thermodynamics, very high
+temperature solar processes and
+thermochemistry
+Frohrib, Darrell A., Professor
+Emeritus
+Ph.D., University of Minnesota
+Engineering design, vibration
+Garrick, Sean C., Associate Professor
+Ph.D., State University of New York,
+Buffalo
+Heat and mass transfer, fluid mechanics,
+numerical methods
+Girshick, Steven L., Professor
+Ph.D., Stanford University
+Plasma technology, materials synthesis,
+nucleation theory
+685
+Goldstein, Richard J., Regents
+Professor
+Ph.D., University of Minnesota
+Heat transfer, thermodynamics, fluid
+mechanics
+Gupta, Diwakar, Professor
+Ph.D., University of Waterloo
+Stochastic processes and queuing
+systems
+Hayes, Caroline C., Professor
+Ph.D., Carnegie Mellon University
+Manufacturing planning and feature
+extraction, artificial intelligence
+Heberlein, Joachim V. R., Professor
+Ph.D., University of Minnesota
+Plasma technology, electrode effects,
+plasma coating and waste-treatment
+processes
+Hogan, Chris, Assistant Professor
+Ph.D., Washington University in Saint
+Louis
+Aerosol physics and chemistry
+Hubel, Allison, Professor
+Ph.D., Massachusetts Institute of
+Technology
+Bioengineering, preservation
+of engineered cells and tissues,
+biotransport
+Ibele, Warren E., Professor
+Emeritus
+Ph.D., University of Minnesota
+Heat transfer, thermodynamics, power
+Kittelson, David B., Professor
+Ph.D., University of Cambridge,
+England
+Energy conversion, particle technology,
+combustion and propulsion
+Klamecki, Barney E., Professor
+Ph.D., University of Illinois, UrbanaChampaign
+Manufacturing process modeling and
+control theory
+Kortshagen, Uwe, Professor
+Dr. rer. nat., University of Bochum,
+Germany
+Low-pressure processing plasmas,
+plasma contamination control, plasma
+modeling
+Kuehn, Thomas H., P.E., Professor
+Ph.D., University of Minnesota
+HVAC and refrigeration, heat and mass
+transfer, filtration
+Kulacki, Francis A., Professor
+Ph.D., University of Minnesota
+Convective transfer in porous and
+fractured media
+Kvalseth, Tarald O., Professor
+Emeritus
+Ph.D., University of California, Berkeley
+Human factors and ergonomics
+Li, Perry Y., Associate Professor
+Ph.D., University of California, Berkeley
+Nonlinear and intelligent control,
+biomechanics, rehabilitation
+engineering, transportation systems,
+manufacturing
+Lipinski, Wojciech, Assistant
+Professor
+Ph.D., ETH Zurich Switzerland
+Thermal and thermo-chemical sciences
+applied to novel energy conversion
+technologies with focus on renewable
+and clean energy
+Liu, Benjamin Y. H., Regents
+Professor Emeritus
+Ph.D., University of Minnesota
+Particle technology, environmental
+control, solar energy
+Mantell, Susan C., Professor
+Ph.D., Stanford University
+Manufacturing and design with
+composite materials
+Marple, Virgil A., Professor
+Ph.D., University of Minnesota
+Particle technology and aerosol science,
+environmental engineering
+McMurry, Peter H., Professor
+Ph.D., California Institute of Technology
+Aerosol science and engineering,
+environmental engineering
+Ogata, Katsuhiko, Professor
+Emeritus
+Ph.D., University of California, Berkeley
+Control systems, optimization
+techniques
+Patankar, Suhas V., Professor
+Emeritus
+Ph.D., University of London, England
+Numerical prediction techniques for
+practical problems involving heat
+transfer and fluid flow
+Pfender, Emil, Professor Emeritus
+Dr. Ing., University of Stuttgart,
+Germany
+Arc technology, plasma heat transfer and
+plasma processing
+Pui, David Y. H., Professor
+Ph.D., University of Minnesota
+Particle technology, environmental
+engineering
+Rajamani, Rajesh, Professor
+Ph.D., University of California, Berkeley
+Control design and state estimation for
+nonlinear systems, fault diagnostics
+Ramalingam, Subbiah, Professor
+Ph.D., University of Illinois, UrbanaChampaign
+Manufacturing sciences, machining,
+metalworking, tribology, arc technology,
+coating technology
+Ramsey, James W., Professor
+Ph.D., University of Minnesota
+Heat and mass transfer, thermal
+environmental engineering
+Rangarajan, Bharath K., Assistant
+Professor
+Ph.D., Cornell University
+Optimization algorithms and
+applications, nonlinear programming,
+linear and semidefinite programming
+with applications to control theory,
+engineering design, cooperative game
+theory
+Shulman, Yechiel, Professor
+Emeritus
+Sc.D., Massachusetts Institute of
+Technology
+Management of technology
+Simon, Terrence W., P.E.
+(Colorado), Professor
+Ph.D., Stanford University
+Heat transfer, fluid mechanics,
+thermodynamics
+Sparrow, Ephraim M., Professor
+Ph.D., Harvard University
+Heat and mass transfer, fluid mechanics,
+thermal issues in biomedical
+engineering
+Starr, Patrick J., Professor
+Emeritus
+Ph.D., University of Minnesota
+Modeling and simulation as applied
+to manufacturing systems and vehicle
+dynamics
+Stelson, Kim A., Professor
+Sc.D., Massachusetts Institute of
+Technology
+Manufacturing, system dynamics and
+controls
+Strykowski, Paul J., Professor
+Ph.D., Yale University
+Fluid mechanics, stability, mixing,
+turbulence control
+Sun, Zongxuan, Assistant Professor
+Ph.D., University of Illinois at UrbanaChampaign
+Eletro-hydralic, electromechanical, and
+electro-magnetic systems, fluid power,
+automotive powertrain, tracking control
+and disturbance rejection, nonlinear and
+time-varying control, and mechatronics
+Tamma, Kumar K., Professor
+Ph.D., Old Dominion University
+Finite elements, computational
+mechanics, structural dynamics

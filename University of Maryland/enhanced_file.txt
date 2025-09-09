@@ -1,0 +1,243 @@
+Abadi, Daniel J, Professor, CMNS-Computer Science, Professor, CMNS-Institute for, Advanced Computer Studies, B.S., Brandeis University,  M.Phil., University of Cambridge, Ph.D., Massachusetts Institute of, Technology, Ph.D.
+Abed, Eyad H, Professor, ENGR-Electrical & Computer Engineering, Affiliate Professor, ENGR-Institute for Systems Research, B.S., Massachusetts Institute of, Technology,  M.S., University of California-Berkeley, Ph.D.
+Abshire, Pamela A., Professor, ENGR-Electrical & Computer Engineering, Professor, ENGR-, Institute for Systems Research, Distinguished Scholar-, Teacher. B.S., California Institute of Technology,  M.S., Johns, Hopkins University, Ph.D.
+Adomaitis, Raymond A., Professor, ENGR-Chemical & Biomolecular Engineering, Professor, ENGR-, Institute for Systems Research, B.S., Illinois Institute of Technology, Ph.D.
+Aggour, Mohamed Sherif, Professor, ENGR-Civil & Environmental Engineering, B.S., University of, Cairo,  M.S., Ph.D., University of Washington
+Agrawala, Ashok K., Professor, CMNS-Computer Science, Professor, CMNS-Institute for, Advanced Computer Studies, Affiliate Professor, ENGR-Electrical &, Computer Engineering, B.S., Agra University,  B.E., Indian Institute of, Science-Bangalore,  M.Eng., Ph.D., Harvard University
+Akin, David L., Professor, ENGR-Aerospace Engineering, S.B., Massachusetts Institute of, Technology,  S.M., Sc.D.
+Al-Sheikhly, Mohamad I., Professor, ENGR-Materials Science & Engineering, Affiliate Professor, ENGR-Chemical & Biomolecular Engineering, B.Sc., University of, Baghdad, Ph.D., University of Newcastle Upon Tyne
+Albertus, Paul, Assistant Professor, ENGR-Chemical & Biomolecular Engineering, B.E., University of Michigan-Ann Arbor, Ph.D., University of California-, Berkeley
+Aloimonos, John Yiannis, Professor, CMNS-Computer Science, Professor, CMNS-Institute for, Advanced Computer Studies, Affiliate Professor, ENGR-Institute for, Systems Research, Affiliate Professor, ENGR-Electrical & Computer, Engineering, B.S., University of Athens-Greece,  M.S., University of, Rochester, Ph.D.
+Ankem, Sreeramamurthy, Professor, ENGR-Materials Science & Engineering, B.Eng., University of, Mysore,  M.Eng., Indian Institute of Science-Bangalore, Ph.D., Polytechnic Institute NYU
+Asa-Awuku, Akua A., Professor, ENGR-Chemical & Biomolecular Engineering, B.S., Massachusetts Institute of Technology,  M.S., Georgia Institute of, Technology, Ph.D.
+Austin, Mark A., Associate Professor, ENGR-Civil & Environmental Engineering, Affiliate, Associate Professor, ENGR-Institute for Systems Research, B.E., University of Canterbury-Christ Church,  M.S., University of, California-Berkeley, Ph.D.
+Aydilek, Ahmet H., Professor, ENGR-Civil & Environmental Engineering, B.S., Istanbul, University,  M.S., University of Wisconsin-Madison, Ph.D.
+Ayyub, Bilal M., Professor, ENGR-Civil & Environmental Engineering, B.S., Kuwait, University,  M.S., Georgia Institute of Technology, Ph.D.
+Azarm, Shapour, Professor, ENGR-Mechanical Engineering, B.S., University of Tehran, M.S., George Washington University, Ph.D., University of, Michigan-Ann Arbor, B
+Babadi, Behtash, Associate Professor, ENGR-Electrical & Computer Engineering, Associate Professor, ENGR-Institute for Systems Research, B.S., Sharif University of, Technology, Ph.D., Harvard University
+Baecher, Gregory B., Professor, ENGR-Civil & Environmental Engineering, B.S., University of, California-Berkeley,  M.S., Massachusetts Institute of Technology, Ph.D.
+Baeder, James D., Professor, ENGR-Aerospace Engineering, B.S., Rice University,  M.S., Stanford University, Ph.D.
+Balachandran, B, Professor, ENGR-Mechanical Engineering, B.Tech., Indian Institute, of Technology-Madras,  M.S., Virginia Polytechnic Institute & State, University, Ph.D.
+Barg, Alexander, Professor, ENGR-Electrical & Computer Engineering, Professor, ENGR-, Institute for Systems Research, Affiliate Professor, CMNS-Computer, Science, M.S., Moscow Institute of Engineering & Physics, Ph.D., Institute for Information Transmission Problems
+Barua, Rajeev K., Professor, ENGR-Electrical & Computer Engineering, Affiliate Professor, ENGR-Institute for Systems Research, B.S., Indian Institute of, Technology-Delhi,  M.S., Massachusetts Institute of Technology, Ph.D.
+Bauchau, Olivier A, Professor, ENGR-Aerospace Engineering, B.S., Université de l?Etat à Liège, M.S., Massachusetts Institute of Technology, Ph.D.
+Baz, Amr M., Professor, ENGR-Mechanical Engineering, Distinguished, Scholar-Teacher. B.S., University of Cairo,  M.S., University of, Wisconsin-Madison, Ph.D.
+Bensi, Michelle T, Assistant Professor, ENGR-Civil & Environmental Engineering, B.A., University of Toledo,  M.O., University of Delaware, Ph.D., University of California-Berkeley
+Bhatele, Abhinav, Associate Professor, CMNS-Computer Science, Associate Professor, CMNS-Institute for Advanced Computer Studies, B.O., Indian Institute of, Technology-Kanpur,  M.S., University of Illinois-Urbana/Champaign, Ph.D.
+Bhattacharjee, Samrat, Professor, CMNS-Computer Science, B.S., Georgia College and State, University, Ph.D., Georgia Institute of Technology
+Bhattacharyya, Shuvra S., Professor, ENGR-Electrical & Computer Engineering, Professor, CMNS-, Institute for Advanced Computer Studies, B.S., University of Wisconsin-, Madison, Ph.D., University of California-Berkeley
+Bigio, David I., Professor, ENGR-Mechanical Engineering, B.S., Case Western Reserve, University,  M.S., Massachusetts Institute of Technology, Eng.D., Ph.D.
+Brehm, Christoph, Associate Professor, ENGR-Aerospace Engineering, B.S., University of, Stuttgart,  M.S., University of Arizona, Ph.D.
+Briber, Robert M., Professor , ENGR-A. James Clark School of Engineering, Professor, ENGR-Materials Science & Engineering, Distinguished Scholar-Teacher. B.S., Cornell University,  M.S., University of Massachusetts-Amherst, Ph.D.
+Brubaker, Kaye L., Associate Professor, ENGR-Civil & Environmental Engineering, B.A., Eastern Mennonite College,  B.S., University of Maryland-College, Park,  M.S., Massachusetts Institute of Technology, Ph.D.
+Bruck, Hugh Alan, Professor , ENGR-A. James Clark School of Engineering, Professor, ENGR-Mechanical Engineering, Distinguished, Scholar-Teacher. B.S., University of South Carolina-Columbia,  M.S., Ph.D., California Institute of Technology
+Cadou, Christopher, Professor, ENGR-Aerospace Engineering, B.S., Cornell University, M.S., University of California-Los Angeles, Ph.D.
+Carpuat, Marine, Associate Professor, CMNS-Computer Science, Associate Professor, CMNS-Institute for Advanced Computer Studies, B.S., Ecole Sainte
+Chang, Gang-Len, Professor, ENGR-Civil & Environmental Engineering, B.E., National Cheng, Kung University-Taiwan,  M.S., National Chiao Tung University-, Hsinchu, Ph.D., University of Texas-Austin
+Chang, Peter C., Associate Professor, ENGR-Civil & Environmental Engineering, B.S., Texas, A&M University-College Station,  M.S., University of Illinois-Urbana/, Champaign, Ph.D.
+Chembo, Yanne Kouomou, Professor, ENGR-Electrical & Computer Engineering, Professor, CMNS-, IREAP-Institute for Research in Electronics and Applied Physics, B.S., Universite de Yaounde I,  M.S., Ph.D.
+Chen, Po-Yen, Assistant Professor, ENGR-Chemical & Biomolecular Engineering, B.S., National Taiwan Normal University-Taipei, Ph.D., Massachusetts, Institute of Technology
+Childs, Andrew, Professor, CMNS-Computer Science, Professor, CMNS-Institute for, Advanced Computer Studies, Affiliate Professor, CMNS-Physics, B.S., California Institute of Technology, Ph.D., Massachusetts Institute of, Technology
+Choe, Eun Kyoung, Associate Professor, INFO-College of Information Studies, Affiliate, Associate Professor, CMNS-Computer Science, Ph.D., University of, Washington
+Choi, Kyu Yong, Professor, ENGR-Chemical & Biomolecular Engineering, B.S., Seoul, National University,  M.S., Ph.D., University of Wisconsin-, Madison
+Chopra, Nikhil, Professor, ENGR-Mechanical Engineering, Affiliate Professor, ENGR-, Institute for Systems Research, Affiliate Professor, ENGR-Electrical &, Computer Engineering, B.E., Indian Institute of Technology-Kharagpur, M.S., University of Illinois-Urbana/Champaign, Ph.D.
+Christou, Aristos, Professor, ENGR-Materials Science & Engineering, Professor, ENGR-, Mechanical Engineering, Director, Space Lidar Technology Center. B.A., Columbia University, Ph.D., University of Pennsylvania
+Chung, Peter W, Professor, ENGR-Mechanical Engineering, B.S., University of Virginia, M.S., University of Minnesota-Twin Cities, Ph.D.
+Cirillo, Cinzia, Professor, ENGR-Civil & Environmental Engineering, M.S., University of
+Cleaveland, Rance, Professor, CMNS-Computer Science, Professor, CMNS-Institute for, Advanced Computer Studies, Professor, ENGR-Institute for Systems, Research, B.S., Duke University,  M.S., Cornell University, Ph.D.
+Cui, Qingbin, Professor, ENGR-Civil & Environmental Engineering, B.E., Tianjin, University,  M.S., Ph.D., Purdue University-West Lafayette
+Cukier, Michel, Professor , UGST -HCOL-ACES Cybersecurity Program, Professor, ENGR-Mechanical Engineering, Affiliate Professor, ENGR-Electrical &, Computer Engineering, Affiliate Professor, CMNS-Institute for Advanced, Computer Studies, Affiliate Professor, CMNS-Computer Science, B.S., European School in Brussels, Belgium,  M.Eng., Free University of, Brussels-Flemish, Ph.D., National Polytechnic Institute of France
+Culver, James N., Professor, SVPAAP-Institute for Bioscience & Biotechnology Research, Professor, AGNR-Plant Science & Landscape Architecture, Affiliate, Professor, ENGR-Fischell Department of Bioengineering, B.S., Oklahoma, State University-Stillwater,  M.S., Ph.D., University of, California-Riverside
+Cumings, John, Associate Professor, ENGR-Materials Science & Engineering, Affiliate, Associate Professor, CMNS-Physics, B.A., Boston University, Ph.D., University of California-Berkeley
+Dachman-Soled, Dana, Associate Professor, ENGR-Electrical & Computer Engineering, Associate Professor, CMNS-Institute for Advanced Computer Studies, Affiliate, Associate Professor, CMNS-Computer Science, Affiliate Associate Professor, ENGR-Institute for Systems Research, B.A., Yeshiva University, M.S., Columbia University, Ph.D.
+Dagenais, Mario, Professor, ENGR-Electrical & Computer Engineering, B.Sc., University of, Montreal,  M.S., University of Rochester, Ph.D.
+Daniels, Kevin M, Assistant Professor, ENGR-Electrical & Computer Engineering, Assistant Professor, CMNS-IREAP-Institute for Research in Electronics and, Applied Physics, Affiliate Assistant Professor, ENGR-Materials Science &, Engineering, B.S., University of South Carolina-Columbia,  M.Elect.E., Ph.D.
+Das, Siddhartha, Associate Professor, ENGR-Mechanical Engineering, B.S., Indian Institute, of Technology-Kharagpur, Ph.D.
+Datta, Anubhav, Associate Professor, ENGR-Aerospace Engineering, B.S., Indian Institute, of Technology-Kharagpur,  M.S., University of Maryland-College, Park, Ph.D.
+Daume, Hal III, Professor, CMNS-Computer Science, Professor, CMNS-Institute for, Advanced Computer Studies, B.S., Carnegie-Mellon University,  M.S., University of Southern California, Ph.D.
+Davis, Allen P ., Professor, ENGR-Civil & Environmental Engineering, Affiliate Professor, AGNR-Plant Science & Landscape Architecture, B.S., University of, Delaware,  M.S., Ph.D.
+Deshpande, Amol, Professor, CMNS-Computer Science, Professor, CMNS-Institute for, Advanced Computer Studies, B.O., Indian Institute of Technology-Mumbai, B.S.,  M.S., University of California-Berkeley, Ph.D.
+DeVoe, Don, Professor , ENGR-Mechanical Engineering, Affiliate, Professor, ENGR-Chemical & Biomolecular Engineering, Affiliate, Professor, ENGR-Fischell Department of Bioengineering, B.S., University, of Maryland-College Park,  M.S., Ph.D., University of California-, Berkeley
+Diaz-Mercado, Yancy, Assistant Professor, ENGR-Mechanical Engineering, Affiliate Assistant Professor, ENGR-Institute for Systems Research, B.S., University of, Puerto Rico-Mayaguez,  M.S., Georgia Institute of Technology, Ph.D.
+Dickerson, John Paul, Associate Professor, CMNS-Computer Science, Associate Professor, CMNS-Institute for Advanced Computer Studies, B.S., University of, Maryland-College Park,  B.S.,  M.S., Carnegie-Mellon University, Ph.D.
+Dimitrakopoulos, Panagiotis, Associate Professor, ENGR-Chemical & Biomolecular Engineering, B.S., National Technical University of Athens,  M.S., University of Illinois-, Urbana/Champaign, Ph.D.
+Dumitras, Tudor, Associate Professor, ENGR-Electrical & Computer Engineering, Associate Professor, CMNS-Institute for Advanced Computer Studies, Affiliate, Associate Professor, CMNS-Computer Science, B.S., Polytechnic, University of Bucharest,  M.S., Carnegie-Mellon University, Ph.D., Ph.D.
+Duncan, Gregg, Assistant Professor, ENGR-Fischell Department of Bioengineering, B.S., Florida State University, Ph.D., Johns Hopkins University
+Duncan, James H., Professor, ENGR-Mechanical Engineering, Affiliate Professor, CMNS-, Institute for Physical Science & Technology, Distinguished, Scholar-Teacher. B.S., Brown University,  M.A., Johns Hopkins, University, Ph.D.
+Duraiswami, Ramani, Professor, CMNS-Computer Science, Professor, CMNS-Institute for, Advanced Computer Studies, Affiliate Professor, ENGR-Electrical &, Computer Engineering, B.S., -RT , Indian Institute of Technology-Mumbai, Ph.D., Johns Hopkins University
+Dutt, Avik, Assistant Professor, ENGR-Mechanical Engineering, Assistant Professor, CMNS-Institute for Physical Science & Technology, B.O., Indian Institute, of Technology-Kharagpur,  M.Elect.E., Cornell University,  D.O.
+Elman, Howard C., Professor, CMNS-Computer Science, Professor, CMNS-Institute for, Advanced Computer Studies, B.A., Columbia University,  M.A., M.S., Yale University, Ph.D.
+Espy-Wilson, Carol Y., Professor, ENGR-Electrical & Computer Engineering, Professor, ENGR-, Institute for Systems Research, Distinguished Scholar-, Teacher. B.S., Stanford University,  M.S., Massachusetts Institute of, Technology,  M.Elect.E., Ph.D.
+Fathy, Hosam K., Professor, ENGR-Mechanical Engineering, B.S., American University-Cairo, M.S., Kansas State University, Ph.D., University of Michigan-, Ann Arbor
+Feizi, Soheil, Assistant Professor, CMNS-Computer Science, Assistant Professor, CMNS-Institute for Advanced Computer Studies, M.S., Massachusetts, Institute of Technology, Ph.D.
+Fernando, Raffan Montoya, Assistant Professor, ENGR-Fire Protection Engineering, B.S., Florida, Institute of Technology-Melbourne,  M.S., University of Maryland-, College Park, Ph.D.
+Fisher, John P, Professor, ENGR-Fischell Department of Bioengineering, Affiliate, Professor, ENGR-Chemical & Biomolecular Engineering, Distinguished Scholar-Teacher. B.S., Johns Hopkins University, M.S., University of Cincinnati, Ph.D., Rice University
+Forman, Barton, Associate Professor, ENGR-Civil & Environmental Engineering, B.S., University of Virginia,  M.S., University of California-Berkeley, Ph.D., University of California-Los Angeles
+Franklin, Manoj, Associate Professor, ENGR-Electrical & Computer Engineering, B.S., University of Kerala,  M.S., University of Wisconsin-Madison, Ph.D.
+Frias-Martinez, Vanessa, Associate Professor, INFO-College of Information Studies, Associate Professor, CMNS-Institute for Advanced Computer Studies, Affiliate, Associate Professor, CMNS-Computer Science, B.S., Universidad de, Valladolid,  M.S., Columbia University, Ph.D.
+Fuge, Mark D, Associate Professor, ENGR-Mechanical Engineering, Affiliate Associate Professor, ENGR-Institute for Systems Research, B.S., Carnegie-Mellon, University,  M.S., Ph.D., University of California-Berkeley
+Gabriel, Steven Adam, Professor, ENGR-Mechanical Engineering, Affiliate Professor, ENGR-, Institute for Systems Research, Affiliate Professor, PLCY-School of Public, Policy, B.A., Middlebury College,  M.S., Stanford University, M.A., Johns Hopkins University, Ph.D.
+Gasarch, William, Professor, CMNS-Computer Science, B.S., SUNY-Stony Brook,  M.S., Harvard University, Ph.D.
+Ghodssi, Reza, Professor, ENGR-Electrical & Computer Engineering, Professor, ENGR-, Institute for Systems Research, Affiliate Professor, ENGR-Fischell, Department of Bioengineering, Distinguished Scholar-Teacher., B.S., University of Wisconsin-Madison,  M.S., Ph.D.
+Goldhar, Julius, Professor, ENGR-Electrical & Computer Engineering, B.S., Massachusetts, Institute of Technology, Ph.D.
+Goldsman, Neil, Professor, ENGR-Electrical & Computer Engineering, B.A., Cornell, University,  M.Elect.E., Ph.D.
+Goldstein, Thomas Aaron, Associate Professor, CMNS-Computer Science, Associate Professor, CMNS-Institute for Advanced Computer Studies, Affiliate Associate Professor, ENGR-Electrical & Computer Engineering, M.S., University of, California-Los Angeles, Ph.D.
+Gomez, Romel Del Rosario, Professor, ENGR-Electrical & Computer Engineering, B.S., University of, the Philippines-Quezon,  M.S., Wayne State University,  M.S., University of Maryland-College Park, Ph.D.
+Gong, Cheng, Assistant Professor, ENGR-Electrical & Computer Engineering, Affiliate, Assistant Professor, ENGR-Materials Science & Engineering, Affiliate, Assistant Professor, CMNS-Physics, B.S., Huazhong University of Science, & Technology, Ph.D., University of Texas-Dallas
+Gottesman, Daniel Eric, Professor, CMNS-Computer Science, Professor, CMNS-Institute for, Advanced Computer Studies, B.A., Harvard University, Ph.D., California Institute of Technology
+Goulias, Dimitrios, Associate Professor, ENGR-Civil & Environmental Engineering, Laurea, Universita degli Studi di Perugia,  M.S., University of Michigan-Ann, Arbor, Ph.D., University of Texas-Austin
+Graham, Samuel Jr., Professor, ENGR-A. James Clark School of Engineering, Professor, ENGR-Mechanical Engineering, B.Mech.E., Georgia Institute of, Technology,  M.S.,  D.Engin.
+Groth, Katrina, Associate Professor, ENGR-Mechanical Engineering, B.S., University of, Maryland-College Park,  M.S., Ph.D.
+Hafezi, Mohammad, Professor, ENGR-Electrical & Computer Engineering, Professor, CMNS-, Physics, B.S./M.S., Ecole Polytechnique,  B.O., Sharif University, of Technology,  M.O., Ecole d'Ingenieurs, Ph.D., Harvard, University, Ph.D.
+Haghani, Ali, Professor, ENGR-Civil & Environmental Engineering, B.S., Shiraz, University,  M.S., Northwestern University, Ph.D.
+Hahn, Jin-Oh, Associate Professor, ENGR-Mechanical Engineering, B.S., Seoul, National University,  M.S., Ph.D., Massachusetts Institute of, Technology
+Hajiaghayi, Mohammad Taghi, Professor, CMNS-Computer Science, Professor, CMNS-Institute for, Advanced Computer Studies, B.S., Sharif University of Technology, M.S., University of Waterloo, Ph.D., Massachusetts Institute of, Technology
+Han, Bongtae, Professor, ENGR-Mechanical Engineering, B.S., Seoul National University, M.S., Ph.D., Virginia Polytechnic Institute & State University
+Hartzell, Christine M, Associate Professor, ENGR-Aerospace Engineering, B.S., Georgia Institute, of Technology, Ph.D., University of Colorado-Boulder
+He, Xiaoming, Professor, ENGR-Fischell Department of Bioengineering, B.S., Xi'an, Jiaotong University,  M.S., Ph.D., University of Minnesota-Twin, Cities
+Herrmann, Jeffrey W., Professor, ENGR-Mechanical Engineering, Professor, ENGR-Institute for, Systems Research, B.S., Georgia Institute of Technology, Ph.D., University of Florida
+Hicks, Michael W., Professor, CMNS-Computer Science, Professor, CMNS-Institute for, Advanced Computer Studies, Distinguished Scholar-Teacher., B.S., University of Pennsylvania,  M.S., Ph.D.
+Hollingsworth, Jeffrey K., Vice President & Chief Information Officer, DIT -Division of Information, Technology, Professor, CMNS-Computer Science, Professor, CMNS-, Institute for Advanced Computer Studies, Affiliate Professor, ENGR-, Electrical & Computer Engineering, B.S., University of California-Berkeley, M.S., University of Wisconsin-Madison, Ph.D.
+Horiuchi, Timothy, Associate Professor, ENGR-Electrical & Computer Engineering, Affiliate, Associate Professor, ENGR-Institute for Systems Research, B.S., California Institute of Technology, Ph.D.
+Hu, Liangbing, Professor, ENGR-Materials Science & Engineering, Distinguished Scholar-Teacher. B.S., University of Science & Technology, of China, Ph.D., University of California-Los Angeles
+Huang, Furong, Assistant Professor, CMNS-Computer Science, Assistant Professor, CMNS-Institute for Advanced Computer Studies, B.S., Zhejiang University, M.S., University of California-Irvine, Ph.D.
+Huang, Huang Chiao, Assistant Professor, ENGR-Fischell Department of Bioengineering, B.S., National Taipei University of Technology, Ph.D., Arizona State, University
+Huertas Cerdeira, Cecilia, Assistant Professor, ENGR-Mechanical Engineering, M.S., Ecole Nationale, Superieure de Mecanique et d?Aerotechnique,  B.S., Universidad, Politecnica de Madrid,  M.S., California Institute of Technology, D.O.
+Iliadis, Agisilaos, Professor, ENGR-Electrical & Computer Engineering, B.S., Aristotelian, University of Thessaloniki,  M.S., Victoria University of Manchester, Ph.D.
+Jacobs, David, Professor, CMNS-Computer Science, Professor, CMNS-Institute for, Advanced Computer Studies, Affiliate Professor, ENGR-Electrical &, Computer Engineering, B.A., Yale University,  M.S., Massachusetts, Institute of Technology, Ph.D.
+JaJa, Joseph F ., Professor, ENGR-Electrical & Computer Engineering, Professor, CMNS-Institute for Advanced Computer Studies, B.S., American, University of Beirut-Lebanon,  M.S., Harvard University, Ph.D.
+Jay, Steven M., Associate Professor, ENGR-Fischell Department of Bioengineering, B.E., University of Georgia,  M.S., Yale University,  M.O., Ph.D.
+Jewell, Christopher M., Professor, ENGR-Fischell Department of Bioengineering, M.S., University, of Wisconsin-Madison, Ph.D.
+Jones, Anya, Professor, ENGR-Aerospace Engineering, B.S., Rensselaer Polytechnic, Institute,  M.S., Massachusetts Institute of Technology, Ph.D., University of Cambridge
+Kacorri, Hernisa, Assistant Professor, INFO-College of Information Studies, Affiliate, Assistant Professor, CMNS-Computer Science, B.S., National &, Capodistrian University of Athens,  M.S.,  M.S., CUNY-Graduate, Center, Ph.D.
+Karlsson, Amy J., Associate Professor, ENGR-Chemical & Biomolecular Engineering, Affiliate Associate Professor, ENGR-Fischell Department of, Bioengineering, B.S., Iowa State University, Ph.D., University of, Wisconsin-Madison
+Katz, Jonathan, Professor, CMNS-Computer Science, Affiliate Professor, ENGR-Electrical, & Computer Engineering, Distinguished Scholar-Teacher. M.A., Columbia University,  M.S., Ph.D.
+Keleher, Peter, Associate Professor, CMNS-Computer Science, B.S., Rice University, M.S., Ph.D.
+Khaligh, Alireza, Professor, ENGR-Electrical & Computer Engineering, Professor, ENGR-, Institute for Systems Research, B.S., Sharif University of Technology, M.S., Ph.D., Illinois Institute of Technology
+Kiger, Ken, Professor , ENGR-A. James Clark School of Engineering, Professor, ENGR-Mechanical Engineering, B.S., University of Southern, California,  M.S., University of California-San Diego, Ph.D.
+Kim, Jungho, Professor, ENGR-Mechanical Engineering, B.S., University of California-, Berkeley,  M.S., University of Minnesota-Twin Cities, Ph.D.
+Kjellerup, Birthe Veno, Associate Professor, ENGR-Civil & Environmental Engineering, M.S., Aalborg Universitet, Ph.D.
+Klauda, Jeffery B., Professor, ENGR-Chemical & Biomolecular Engineering, B.S., Rensselaer, Polytechnic Institute, Ph.D., University of Delaware
+Koeth, Timothy W., Assistant Professor, ENGR-Materials Science & Engineering, Affiliate, Assistant Professor, CMNS-Institute for Physical Science & Technology, Affiliate Assistant Professor, CMNS-Physics, B.S., Rutgers University, B.S., Ph.D.
+Kofinas, Peter, Professor, ENGR-Chemical & Biomolecular Engineering, Affiliate, Professor, ENGR-Materials Science & Engineering, Affiliate Professor, ENGR-Fischell Department of Bioengineering, B.S., Massachusetts, Institute of Technology,  M.S., Ph.D.
+Krishnaprasad, Perinkulam, Professor, ENGR-Electrical & Computer Engineering, Professor, ENGR-, Institute for Systems Research, B.Tech., Indian Institute of Technology-, Mumbai,  M.S., Syracuse University, Ph.D., Harvard University
+Kruskal, Clyde P ., Associate Professor, CMNS-Computer Science, B.A., Brandeis University, M.S., New York University, Ph.D.
+Kuo, Catherine K., Associate Professor, ENGR-Fischell Department of Bioengineering, B.S., University of Michigan-Ann Arbor, Ph.D.
+La, Richard J., Professor, ENGR-Electrical & Computer Engineering, Professor, ENGR-, Institute for Systems Research, B.S., University of Maryland-College Park, M.S., University of California-Berkeley, Ph.D.
+Lampropoulos, Leonidas, Assistant Professor, CMNS-Computer Science, Assistant Professor, CMNS-Institute for Advanced Computer Studies, B.S., National Technical, University of Athens, Ph.D., University of Pennsylvania
+Larsson, Johan, Associate Professor, ENGR-Mechanical Engineering, Affiliate Associate Professor, ENGR-Aerospace Engineering, M.S., University of Lund, Ph.D., University of Waterloo
+Lathrop, Daniel Perry, Professor, CMNS-Physics, Professor, CMNS-Geology, Professor, CMNS-, Institute for Physical Science & Technology, Professor, CMNS-IREAP-, Institute for Research in Electronics and Applied Physics, Affiliate, Professor, ENGR-Mechanical Engineering, Distinguished, Scholar-Teacher. B.A., University of California-Berkeley, Ph.D., University of Texas-Austin
+Laurence, Stuart, Associate Professor, ENGR-Aerospace Engineering, B.S., University of, Auckland,  B.S.,  M.S., California Institute of Technology, Ph.D.
+Lawson, Wesley Grant, Professor, ENGR-Electrical & Computer Engineering, Affiliate Professor, CMNS-IREAP-Institute for Research in Electronics and Applied Physics, B.Elect.E., University of Maryland-College Park,  M.S., Ph.D.
+Lazar, Amanda, Assistant Professor, INFO-College of Information Studies, Affiliate, Assistant Professor, CMNS-Computer Science, B.S., University of, California-San Diego, Ph.D., University of Washington
+Lee, Sangbok, Professor, CMNS-Chemistry & Biochemistry, Affiliate Professor, ENGR-, Chemical & Biomolecular Engineering, Affiliate Professor, CMNS-IREAP-, Institute for Research in Electronics and Applied Physics, Affiliate, Professor, ENGR-Materials Science & Engineering, B.S., Seoul National, University,  M.S., Ph.D.
+Lee, Sung W., Professor, ENGR-Aerospace Engineering, B.S., Seoul National University, M.S., Massachusetts Institute of Technology, Ph.D.
+Levin, Dave, Assistant Professor, CMNS-Computer Science, Assistant Professor, CMNS-Institute for Advanced Computer Studies, Affiliate Assistant Professor, ENGR-Electrical & Computer Engineering, B.S., University of, Maryland-College Park, Ph.D.
+Li, Guangbin, Assistant Professor, ENGR-Civil & Environmental Engineering, B.E., Harbin, Engineering University,  M.S.,  M.S., Arizona State University, Ph.D., University of Arizona
+Li, Teng, Professor, ENGR-Mechanical Engineering, B.S., Tsinghua University/, Qinghua University,  M.A., Princeton University, Ph.D., Harvard, University
+Liu, Dongxia, Professor, ENGR-Chemical & Biomolecular Engineering, Affiliate, Professor, ENGR-Materials Science & Engineering, B.S., Shandong, University,  M.S., The Chinese Academy of Sciences, Ph.D., University of Rochester
+Liu, Zhicheng, Assistant Professor, CMNS-Computer Science, B.S., National University of, Singapore, Ph.D., Georgia Institute of Technology
+Lloyd, Isabel K., Associate Professor, ENGR-Materials Science & Engineering, Affiliate, Associate Professor, CMNS-IREAP-Institute for Research in Electronics, and Applied Physics, B.S., Pennsylvania State University, Ph.D., Massachusetts Institute of Technology
+Locascio, Laurie Ellen, Professor, ENGR-Fischell Department of Bioengineering, B.S., James, Madison University,  M.S., University of Utah, Ph.D., University, of Maryland at Baltimore
+Lowe, Tao L, Professor, ENGR-Fischell Department of Bioengineering, B.S., Nanjing, University of Science & Technology,  M.S., Tianjin University, Ph.D., University of Helsinki
+Maisel, Katharina, Assistant Professor, ENGR-Fischell Department of Bioengineering, B.S., University of Michigan-Dearborn, Ph.D., Johns Hopkins University
+Makowski, Armand M., Professor, ENGR-Electrical & Computer Engineering, B.S., Universite Libre, de Bruxelles-Belgium,  M.S., University of California-Los Angeles, Ph.D., University of Kentucky
+Martin, Pino, Professor, ENGR-Aerospace Engineering, B.E., Boston University, M.S., University of Minnesota-Crookston, Ph.D.
+Martinez-Miranda, Luz J, Associate Professor, ENGR-Materials Science & Engineering, B.S., University of Puerto Rico-Rio Piedras,  B.Mus.,  M.S., Ph.D., Massachusetts Institute of Technology
+Martins, Nuno Miguel L C, Professor, ENGR-Electrical & Computer Engineering, Professor, ENGR-, Institute for Systems Research, B.S./M.S., University of Lisbon, Ph.D., Massachusetts Institute of Technology
+Marzullo, Keith Ansel, Professor, INFO-College of Information Studies, Affiliate, Professor, CMNS-Computer Science, B.A., Occidental College,  M.S., Stanford University, Ph.D.
+Matysiak, Silvina R., Associate Professor, ENGR-Fischell Department of Bioengineering, B.A., Technological Institution of Buenos,  M.A., Rice University, Ph.D.
+Mazurek, Michelle, Associate Professor, CMNS-Computer Science, Associate Professor, CMNS-Institute for Advanced Computer Studies, Affiliate Associate Professor, ENGR-Electrical & Computer Engineering, M.S., Carnegie-, Mellon University, Ph.D.
+McCluskey, Patrick, Professor, ENGR-Mechanical Engineering, B.S., Lafayette College, M.S., Lehigh University, Ph.D.
+Metzler, Christopher Allan, Assistant Professor, CMNS-Computer Science, Assistant Professor, CMNS-Institute for Advanced Computer Studies, Affiliate Assistant Professor, ENGR-Electrical & Computer Engineering, B.S., Rice University, M.S., Ph.D.
+Miers, Ian, Assistant Professor, CMNS-Computer Science, Assistant Professor, CMNS-Institute for Advanced Computer Studies, B.S., Johns Hopkins, University, Ph.D.
+Milke, James A., Professor, ENGR-Fire Protection Engineering, B.S., Ursinus, College,  B.S., University of Maryland-College Park,  M.S., Ph.D.
+Mo, Yifei, Associate Professor, ENGR-Materials Science & Engineering, Affiliate, Associate Professor, CMNS-Physics, B.S., Peking University, Ph.D., University of Wisconsin-Madison
+Modarres, Mohammad, Professor, ENGR-Mechanical Engineering, Distinguished, Scholar-Teacher. B.S., Tehran Polytechnic,  M.S., Massachusetts, Institute of Technology, Ph.D.
+Molloy, Erin, Assistant Professor, CMNS-Computer Science, Assistant Professor, CMNS-Institute for Advanced Computer Studies, B.A., University of, Chicago, Ph.D., University of Illinois-Urbana/Champaign
+Montas, Hubert J., Associate Professor, ENGR-Fischell Department of Bioengineering, B.S., McGill University-Montreal,  M.S., Ph.D., Purdue University-, West Lafayette
+Mote, C D Jr., Professor, ENGR-Mechanical Engineering, B.S., University of California-, Berkeley,  M.S., Ph.D.
+Mount, David, Professor, CMNS-Computer Science, Professor, CMNS-Institute for, Advanced Computer Studies, B.S., Purdue University-West Lafayette, Ph.D., 1
+Mueller, Jenna L., Assistant Professor, ENGR-Fischell Department of Bioengineering, B.S., Rice University,  M.S., Duke University, Ph.D.
+Murphy, Thomas E., Professor , CMNS-IREAP-Institute for Research in Electronics, and Applied Physics, Professor, ENGR-Electrical & Computer Engineering, Affiliate Professor, CMNS-Physics, Distinguished Scholar-, Teacher. B.S., Rice University,  B.A.,  M.S., Massachusetts, Institute of Technology, Ph.D.
+Narayan, Prakash, Professor, ENGR-Electrical & Computer Engineering, Professor, ENGR-, Institute for Systems Research, B.E., Indian Institute of Technology-, Madras,  M.S., Washington University in Saint Louis, Ph.D., 5
+Nau, Dana S., Professor, CMNS-Computer Science, Professor, ENGR-Institute for, Systems Research, B.S., Missouri University S & T ,  A.M., Duke, University, Ph.D.
+Ni, Shuna, Assistant Professor, ENGR-Fire Protection Engineering, B.S., Central, South University-China,  M.S., Tongji University/Tungchai University, Ph.D., Texas A&M University-College Station
+Niemeier, Deb A, Professor, ENGR-Civil & Environmental Engineering, B.S., University of, Texas-Austin,  M.S., University of Maine at Orono,  D.Engin., University of Washington
+O'Shea, Patrick, Professor, ENGR-Electrical & Computer Engineering, Affiliate Professor, CMNS-Physics, Distinguished Scholar-Teacher. B.S., National, University of Ireland-Dublin,  M.S., University of Maryland-College, Park, Ph.D.
+Oehrlein, Gottlieb, Professor, ENGR-Materials Science & Engineering, Professor, CMNS-, IREAP-Institute for Research in Electronics and Applied Physics, Affiliate, Professor, CMNS-Physics, B.S., Wurzburg University, Ph.D., SUNY-, Albany
+Ohadi, Michael, Professor, ENGR-Mechanical Engineering, B.S., University of Tehran, M.S., Southern Illinois University-Carbondale,  M.Ed., Northeastern University, Ph.D., University of Minnesota-Twin Cities
+Oruc, Yavuz A., Professor, ENGR-Electrical & Computer Engineering, B.S., The Middle East, Technical University-Ankara,  M.S., University of Wales-Cardiff, Ph.D., Syracuse University
+Otte, Michael Wilson, Assistant Professor, ENGR-Aerospace Engineering, Affiliate Assistant Professor, CMNS-Computer Science, Affiliate Assistant Professor, ENGR-, Institute for Systems Research, B.S., Clarkson University,  M.S., University of Colorado-Boulder, Ph.D.
+Paley, Derek A., Professor, ENGR-Aerospace Engineering, Professor, ENGR-Institute for, Systems Research, Affiliate Professor, ENGR-Electrical & Computer, Engineering, Distinguished Scholar-Teacher. B.S., Yale, University,  M.A., Princeton University, Ph.D.
+Papamarcou, Adrianos, Associate Professor, ENGR-Electrical & Computer Engineering, B.A., University of Cambridge,  M.S., Cornell University, Ph.D.
+Patro, Robert Scott, Associate Professor, CMNS-Computer Science, Associate Professor, CMNS-Institute for Advanced Computer Studies, B.S., University of, Maryland-College Park, Ph.D.
+Peng, Huaishu, Assistant Professor, CMNS-Computer Science, Assistant Professor, CMNS-Institute for Advanced Computer Studies, Affiliate Assistant Professor, INFO-College of Information Studies, B.E., Beihang University, M.S., Carnegie-Mellon University, Ph.D., Cornell University
+Phaneuf, Raymond J., Professor, ENGR-Materials Science & Engineering, Affiliate Professor, ENGR-Electrical & Computer Engineering, Affiliate Professor, CMNS-, Physics, B.A., College of the Holy Cross,  M.S., Ph.D., University of Wisconsin-Madison
+Pop, Mihai, Professor , CMNS-Institute for Advanced Computer Studies, Professor, CMNS-Computer Science, B.S., Polytechnic University of, Bucharest,  M.S., Johns Hopkins University, Ph.D.
+Porter, Adam A., Professor, CMNS-Computer Science, Professor, CMNS-Institute for, Advanced Computer Studies, Affiliate Professor, ENGR-Institute for, Systems Research, B.A., California State University-Dominguez Hills, M.S., University of California-Irvine, Ph.D.
+Purtilo, James M., Associate Professor, CMNS-Computer Science, B.A., Hiram College, M.A., Kent State University-all campuses, Ph.D., University of, Illinois-Urbana/Champaign
+Qu, Gang, Professor, ENGR-Electrical & Computer Engineering, Professor, ENGR-, Institute for Systems Research, B.S., Hefei University of Technology, M.S.,  M.S., University of Oklahoma,  M.S., University of, California-Los Angeles, Ph.D.
+Rabin, Oded, Associate Professor, ENGR-Materials Science & Engineering, Associate Professor, CMNS-IREAP-Institute for Research in Electronics and Applied, Physics, Affiliate Associate Professor, ENGR-Aerospace Engineering, B.A., Technion-Israel Institute of Tech,  M.S., Weizmann Institute of, Science, Ph.D., Massachusetts Institute of Technology
+Radermacher, K Reinhard, Professor, ENGR-Mechanical Engineering, Minta Martin Professor. B.S., Technical University Munich,  M.S., Ph.D.
+Raghavan, Srinivasa R., Professor, ENGR-Chemical & Biomolecular Engineering, Distinguished Scholar-Teacher. B.S., Indian Institute of Technology-, Madras, Ph.D., North Carolina State University
+Reggia, James A., Professor, CMNS-Computer Science, Professor, CMNS-Institute for, Advanced Computer Studies, B.S., University of Maryland-College Park, M.D., University of Maryland at Baltimore, Ph.D., University of, Maryland-College Park
+Regli, William C, Professor , VPR-Applied Research Lab for Intelligence &, Security, Professor, CMNS-Computer Science, Affiliate Professor, ENGR-, Mechanical Engineering, Affiliate Professor, ENGR-Institute for Systems, Research, Affiliate Professor, ENGR-Electrical & Computer Engineering, B.S., St. Joseph's University,  M.S., University of Maryland-College, Park, Ph.D.
+Reilly, Allison Coffey, Assistant Professor, ENGR-Civil & Environmental Engineering, B.S., Johns, Hopkins University,  M.S., Cornell University, Ph.D.
+Riaz, Amir, Associate Professor, ENGR-Mechanical Engineering, B.S., Pakistan, University of Engineering & Technology-Lahore,  M.S., University of, Southern California, Ph.D., University of California-Santa Barbara
+Rios Ocampo, Carlos Andres, Assistant Professor, ENGR-Materials Science & Engineering, Assistant Professor, CMNS-IREAP-Institute for Research in Electronics and Applied, Physics, Affiliate Assistant Professor, ENGR-Electrical & Computer, Engineering, B.S., Universidad de Antioquia,  M.S., Karlsruher, Institut fur Technologie, Ph.D., University of Oxford
+Roy, Nirupam, Assistant Professor, CMNS-Computer Science, Assistant Professor, CMNS-Institute for Advanced Computer Studies, Affiliate Assistant Professor, ENGR-Electrical & Computer Engineering, B.E., Bengal, Engineering and Science University,  M.S., University of South, Carolina-Columbia, Ph.D., University of Illinois-Urbana/Champaign
+Rudinger, Rachel, Assistant Professor, CMNS-Computer Science, Assistant Professor, CMNS-Institute for Advanced Computer Studies, Affiliate Assistant Professor, ARHU-Linguistics, B.S., Yale University,  M.S.W.E., Johns, Hopkins University, Ph.D.
+Salamanca-Riba, Lourdes G., Professor, ENGR-Materials Science & Engineering, B.S., Universidad, Autonoma Metropolitana, Ph.D., Massachusetts Institute of, Technology
+Sandborn, Peter A., Professor, ENGR-Mechanical Engineering, B.S., University of Colorado-, Boulder,  M.S., University of Michigan-Ann Arbor, Ph.D.
+Scarcelli, Giuliano, Associate Professor, ENGR-Fischell Department of Bioengineering, Laurea, University of Bari,  M.S., University of Maryland-Baltimore, County, Ph.D., 5
+Schonfeld, Paul M., Professor, ENGR-Civil & Environmental Engineering, B.S., Massachusetts, Institute of Technology,  M.S., Ph.D., University of California-, Berkeley
+Sedwick, Ray, Professor, ENGR-Aerospace Engineering, B.S., Pennsylvania State, University,  M.S., Massachusetts Institute of Technology, Ph.D.
+Shah, Sahil S, Assistant Professor, ENGR-Electrical & Computer Engineering, B.Elect.E., Manipal University,  M.Elect.E., Arizona State University, D.Engin., Georgia Institute of Technology, 1
+Shamma, Shihab, Professor, ENGR-Electrical & Computer Engineering, Professor, ENGR-, Institute for Systems Research, B.S., Imperial College of Science &, Technology-London,  M.S., Stanford University, Ph.D., M.A.
+Shankar, A Udaya, Professor, CMNS-Computer Science, B.Tech., Indian Institute of, Technology-Kanpur,  M.S., Syracuse University, Ph.D., University of Texas-Austin
+Shayman, Mark A., Professor, ENGR-Electrical & Computer Engineering, B.A., Yale University, M.S., Harvard University, Ph.D.
+Shrivastava, Abhinav, Assistant Professor, CMNS-Computer Science, Assistant Professor, CMNS-Institute for Advanced Computer Studies, B.Tech., Jaypee Institute, of Information Tech,  M.S., Carnegie-Mellon University, Ph.D.
+Simon, Jonathan Z, Professor, ENGR-Electrical & Computer Engineering, Professor, ENGR-, Institute for Systems Research, Professor, CMNS-Biology, B.A., Princeton, University,  M.S., University of California-Santa Barbara, Ph.D.
+Skibniewski, Miroslaw Jan, Professor, ENGR-Civil & Environmental Engineering, M.Eng., Technical, University of Warsaw,  M.S., Carnegie-Mellon University, Ph.D.
+Smela, Elisabeth, Professor, ENGR-Mechanical Engineering, Affiliate Professor, ENGR-, Electrical & Computer Engineering, B.S., Massachusetts Institute of, Technology,  M.S., University of Pennsylvania, Ph.D.
+Sochol, Ryan Daniel, Associate Professor, ENGR-Mechanical Engineering, Affiliate Associate Professor, ENGR-Fischell Department of Bioengineering, B.S., Northwestern University,  M.S., University of California-Berkeley, Ph.D.
+Sprangle, Phillip Allen, Professor, CMNS-IREAP-Institute for Research in Electronics and Applied, Physics, Professor, ENGR-Electrical & Computer Engineering, Professor, CMNS-Physics, B.S., Polytechnic Institute NYU,  M.A., University of, Puerto Rico-Rio Piedras, Ph.D., Cornell University
+Srebric, Jelena, Professor, ENGR-Mechanical Engineering, B.S., University of Belgrade,  M.S., Ph.D., Massachusetts Institute, of Technology
+Sriram, Ganesh, Associate Professor, ENGR-Chemical & Biomolecular Engineering, B.S., Indian Institute of Technology-Mumbai,  M.S., Ph.D., Iowa, State University
+Srivastava, Ankur, Professor , ENGR-Institute for Systems Research, Professor, ENGR-Electrical & Computer Engineering, Affiliate Professor, CMNS-, Computer Science, B.Elect.E., Indian Institute of Technology-Delhi, M.S., Northwestern University, Ph.D., University of California-Los, Angeles
+Stoliarov, Stanislav I., Professor, ENGR-Fire Protection Engineering, Affiliate Professor, ENGR-, Mechanical Engineering, B.S./M.S., Mendeleev University of Chemical, Technology, Ph.D., Catholic University of America
+Stroka, Kimberly Murley, Associate Professor, ENGR-Fischell Department of Bioengineering, B.S., Denison University, Ph.D., University of Maryland-College Park
+Sunderland, Peter B., Professor, ENGR-Fire Protection Engineering, Affiliate Professor, ENGR-Mechanical Engineering, Affiliate Professor, ENGR-Aerospace, Engineering, B.S., Cornell University,  M.S., University of, Massachusetts-Amherst,  M.S., University of Michigan-Ann Arbor, Ph.D.
+Sussman, Alan L., Professor, CMNS-Computer Science, B.Elect.E., Princeton University, Ph.D., Carnegie-Mellon University
+Takeuchi, Ichiro, Professor, ENGR-Materials Science & Engineering, Distinguished Scholar-Teacher. B.S., California Institute of Technology, Ph.D., University of Maryland-College Park
+Tao, Yang, Professor, ENGR-Fischell Department of Bioengineering, B.S., Nanjing, University/Nanking University,  M.S., University of Nebraska-Lincoln, Ph.D., Pennsylvania State University
+Tits, Andre L., Professor, ENGR-Electrical & Computer Engineering, Professor, ENGR-, Institute for Systems Research, B.S., University of Liege,  M.S., University of California-Berkeley, Ph.D.
+Tiwary, Pratyush, Associate Professor, CMNS-Chemistry & Biochemistry, Associate Professor, CMNS-Institute for Physical Science & Technology, Affiliate, Associate Professor, ENGR-Materials Science & Engineering, B.S., Banaras Hindu University,  M.S., California Institute of Technology, Ph.D.
+Tokekar, Pratap, Associate Professor, CMNS-Computer Science, Associate Professor, CMNS-Institute for Advanced Computer Studies, Affiliate Associate Professor, ENGR-Electrical & Computer Engineering, B.Tech., College of, Engineering, Pune, Ph.D., University of Minnesota-Twin Cities
+Trouve, Arnaud C., Professor, ENGR-Fire Protection Engineering, M.S., Ecole Centrale Des, Arts Et Manufac-Paris, Ph.D.
+Tubaldi, Eleonora, Assistant Professor, ENGR-Mechanical Engineering, Affiliate Assistant Professor, ENGR-Institute for Systems Research, B.S., Politecnico, di Milano,  M.S., Ecole Polytechnique de Montreal,  M.S., Politecnico di Milano, Ph.D., McGill University-Montreal
+Van Horn, David, Associate Professor, CMNS-Computer Science, Associate Professor, CMNS-Institute for Advanced Computer Studies, B.S., University of, Vermont,  M.S., Ph.D., Brandeis University
+Varshney, Amitabh, Professor, CMNS-College of Computer, Math & Natural Sciences, Professor, CMNS-Computer Science, Professor, CMNS-Institute for, Advanced Computer Studies, B.S., Indian Institute of Technology-Delhi, M.S., University of North Carolina-Chapel Hill, Ph.D.
+Vishkin, Uzi, Professor, CMNS-Institute for Advanced Computer Studies, Professor, ENGR-Electrical & Computer Engineering, Affiliate Professor, CMNS-, Computer Science, B.S., Hebrew University of Jerusalem,  M.S., D.Sc., Technion-Israel Institute of Tech
+Waks, Edo, Professor, ENGR-Electrical & Computer Engineering, Professor, CMNS-, IREAP-Institute for Research in Electronics and Applied Physics, Professor, CMNS-Physics, B.S., Johns Hopkins University,  M.S., Ph.D., Stanford University
+Walsworth, Ronald L, Professor, ENGR-Electrical & Computer Engineering, Professor, CMNS-, Physics, Professor, CMNS-IREAP-Quantum Technology Center, B.S., Duke, University, Ph.D., Harvard University
+Wang, Chunsheng, Professor, ENGR-Chemical & Biomolecular Engineering, Affiliate, Professor, ENGR-Materials Science & Engineering, B.S., Jiamusi, University,  M.S., Harbin Institute of Technology, Ph.D., Zhejiang University
+Wang, Nam Sun, Associate Professor, ENGR-Chemical & Biomolecular Engineering, B.S., University of California-Berkeley,  M.S., California Institute of, Technology, Ph.D., 3
+Wereley, Norman M., Professor, ENGR-Aerospace Engineering, B.E., McGill University-Montreal, M.S., Massachusetts Institute of Technology, Ph.D.
+Winkelmann, Allen E., Associate Professor, ENGR-Aerospace Engineering, B.S., University of, Minnesota-Twin Cities,  M.S., Ph.D., University of Maryland-, College Park
+Woehl, Taylor J, Associate Professor, ENGR-Chemical & Biomolecular Engineering, B.S., Missouri University S & T , Ph.D., University of California-Davis
+Wu, Min, Professor , ENGR-A. James Clark School of Engineering, Professor, ENGR-Electrical & Computer Engineering, Professor, CMNS-, Institute for Advanced Computer Studies, Distinguished, Scholar-Teacher. B.Elect.E., Tsinghua University/Qinghua University, B.A.,  M.A., Princeton University, Ph.D.
+Wu, Xiaodi, Assistant Professor, CMNS-Computer Science, Assistant Professor, CMNS-Institute for Advanced Computer Studies, Affiliate Assistant Professor, ENGR-Electrical & Computer Engineering, B.S., Tsinghua, University/Qinghua University, Ph.D., University of Michigan-Ann, Arbor
+Xu, Mumu, Associate Professor, ENGR-Aerospace Engineering, Associate Professor, ENGR-Institute for Systems Research, M.S., California Institute of, Technology, Ph.D.
+Yang, Bao, Professor, ENGR-Mechanical Engineering, B.S., University of Science &, Technology-Hong Kong, Ph.D., Ph.D., University of California-, Los Angeles
+Ying, Jordan, Associate Professor, CMNS-Computer Science, Associate Professor, CMNS-Institute for Advanced Computer Studies, Associate Professor, INFO-College of Information Studies, B.S., California Institute of, Technology,  M.A., Princeton University, Ph.D.
+Yu, Kenneth H., Professor, ENGR-Aerospace Engineering, B.S., University of California-, Berkeley,  M.S., Ph.D.
+Yu, Miao, Professor, ENGR-Mechanical Engineering, Professor, ENGR-Institute for, Systems Research, B.S., Tsinghua University/Qinghua University, M.S., Ph.D., University of Maryland-College Park
+Zhang, Chen, Assistant Professor, ENGR-Chemical & Biomolecular Engineering, B.S., Nanjing Tech University,  M.S., Tianjin University, Ph.D., Georgia Institute of Technology
+Zhang, Lei, Professor, ENGR-Civil & Environmental Engineering, B.E., Tsinghua, University,  M.S., University of Minnesota-Twin Cities,  M.S., Ph.D.
+Zhang, Li-Qun, Professor, ENGR-Fischell Department of Bioengineering, B.S., Tsinghua, University/Qinghua University,  M.S., Vanderbilt University, Ph.D.
+Zhang, Yunfeng, Professor, ENGR-Civil & Environmental Engineering, B.S., Tongji, University/Tungchai University,  M.S., Tsinghua University/Qinghua, University, Ph.D., California Institute of Technology
+Zhao, Ji-Cheng, Professor, ENGR-Materials Science & Engineering, B.S., Central, South University,  M.S., Ph.D., Lehigh University, 1
+Zhou, You, Assistant Professor, ENGR-Materials Science & Engineering, B.S., Peking, University, Ph.D., Harvard University
+Zwicker, Matthias, Professor, CMNS-Computer Science, Professor, CMNS-Institute, for Advanced Computer Studies, M.S., Swiss Federal Institute of, Technology-Zurich, Ph.D.

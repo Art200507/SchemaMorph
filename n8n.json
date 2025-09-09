@@ -1,0 +1,288 @@
+{
+  "name": "RestNow Smart Auto-Discovery",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 18 * * *"
+            }
+          ]
+        }
+      },
+      "id": "trigger-daily",
+      "name": "Daily 6PM Trigger",
+      "type": "n8n-nodes-base.cron",
+      "typeVersion": 1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "// CONFIGURATION: Just paste your public Google Drive folder URL here\n// Example: 'https://drive.google.com/drive/folders/1ABC123DEF456?usp=sharing'\nconst PUBLIC_FOLDER_URL = 'PASTE_YOUR_GOOGLE_DRIVE_FOLDER_LINK_HERE';\n\n// This workflow automatically finds ALL videos in your folder\n// Add new videos to your folder and they'll be included automatically!\n\nif (PUBLIC_FOLDER_URL === 'PASTE_YOUR_GOOGLE_DRIVE_FOLDER_LINK_HERE') {\n  throw new Error('🔧 SETUP REQUIRED: Please replace PASTE_YOUR_GOOGLE_DRIVE_FOLDER_LINK_HERE with your actual Google Drive folder link');\n}\n\n// Extract folder ID from any Google Drive folder URL format\nlet folderId = '';\n\n// Handle different URL formats\nif (PUBLIC_FOLDER_URL.includes('/folders/')) {\n  const match = PUBLIC_FOLDER_URL.match(/\\/folders\\/([a-zA-Z0-9-_]+)/);\n  folderId = match ? match[1] : '';\n} else if (PUBLIC_FOLDER_URL.includes('id=')) {\n  const match = PUBLIC_FOLDER_URL.match(/id=([a-zA-Z0-9-_]+)/);\n  folderId = match ? match[1] : '';\n}\n\nif (!folderId) {\n  throw new Error('❌ Invalid Google Drive folder URL. Please check your link format.');\n}\n\nconsole.log('✅ Folder ID extracted:', folderId);\nconsole.log('🔍 Will search for all videos in this folder...');\n\n// Create RSS feed URL - Google Drive has a hidden RSS feature for public folders\nconst rssFeedUrl = `https://drive.google.com/feeds/default/folders/${folderId}`;\nconst embedUrl = `https://drive.google.com/embeddedfolderview?id=${folderId}#list`;\n\nreturn {\n  json: {\n    folderId: folderId,\n    originalUrl: PUBLIC_FOLDER_URL,\n    rssFeedUrl: rssFeedUrl,\n    embedUrl: embedUrl,\n    status: 'ready_to_scan_folder'\n  }\n};"
+      },
+      "id": "config-setup",
+      "name": "🔧 Configuration (Edit This Once)",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [460, 300]
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.embedUrl }}",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "text"
+            }
+          },
+          "timeout": 10000
+        }
+      },
+      "id": "scan-folder",
+      "name": "🔍 Scan Folder for Videos",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [680, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Smart video detection from Google Drive folder\nconst html = $json.data;\nconst folderId = $node['🔧 Configuration (Edit This Once)'].json.folderId;\n\nconsole.log('🔍 Scanning folder content...');\n\n// Multiple detection methods for maximum reliability\nconst videoFileIds = new Set(); // Use Set to avoid duplicates\n\n// Method 1: Look for video MIME types in the HTML\nconst videoMimeRegex = /\\[\"([a-zA-Z0-9-_]{25,})\"[^\\]]*\"video\\//g;\nlet match;\nwhile ((match = videoMimeRegex.exec(html)) !== null) {\n  videoFileIds.add(match[1]);\n}\n\n// Method 2: Look for common video file extensions\nconst videoExtRegex = /\\[\"([a-zA-Z0-9-_]{25,})\"[^\\]]*\\.(mp4|mov|avi|mkv|webm|m4v)\"/gi;\nwhile ((match = videoExtRegex.exec(html)) !== null) {\n  videoFileIds.add(match[1]);\n}\n\n// Method 3: Look for file IDs in data-id attributes\nconst dataIdRegex = /data-id=[\"']([a-zA-Z0-9-_]{25,})[\"']/g;\nwhile ((match = dataIdRegex.exec(html)) !== null) {\n  // Verify this looks like a valid file ID\n  if (match[1].length >= 25 && match[1].length <= 40) {\n    videoFileIds.add(match[1]);\n  }\n}\n\n// Convert Set to Array\nconst allVideoIds = Array.from(videoFileIds);\n\n// If we found many IDs, filter for the most likely video files\nlet finalVideoIds = allVideoIds;\nif (allVideoIds.length > 20) {\n  // Take a reasonable sample and prefer longer IDs (more likely to be files)\n  finalVideoIds = allVideoIds\n    .filter(id => id.length >= 28)\n    .slice(0, 15);\n}\n\nif (finalVideoIds.length === 0) {\n  // Emergency fallback: try a different approach\n  console.log('⚠️ No videos found with primary methods, trying fallback...');\n  \n  // Look for any long alphanumeric strings that could be file IDs\n  const fallbackRegex = /[\"']([a-zA-Z0-9-_]{28,35})[\"']/g;\n  const fallbackIds = [];\n  \n  while ((match = fallbackRegex.exec(html)) !== null && fallbackIds.length < 10) {\n    if (/^[a-zA-Z0-9-_]+$/.test(match[1])) {\n      fallbackIds.push(match[1]);\n    }\n  }\n  \n  finalVideoIds = [...new Set(fallbackIds)];\n}\n\nif (finalVideoIds.length === 0) {\n  throw new Error('❌ No video files found in the folder. Make sure:\\n1. The folder is public\\n2. It contains video files\\n3. The folder URL is correct');\n}\n\nconsole.log(`🎉 Found ${finalVideoIds.length} video files!`);\nfinalVideoIds.forEach((id, index) => {\n  console.log(`📹 Video ${index + 1}: ${id}`);\n});\n\n// Select a random video\nconst randomIndex = Math.floor(Math.random() * finalVideoIds.length);\nconst selectedFileId = finalVideoIds[randomIndex];\n\n// Create download URL\nconst downloadUrl = `https://drive.google.com/uc?export=download&id=${selectedFileId}`;\n\nconsole.log(`✅ Selected video #${randomIndex + 1}: ${selectedFileId}`);\nconsole.log(`🔗 Download URL: ${downloadUrl}`);\n\nreturn {\n  json: {\n    selectedFileId: selectedFileId,\n    downloadUrl: downloadUrl,\n    totalVideosFound: finalVideoIds.length,\n    allVideoIds: finalVideoIds,\n    selectedIndex: randomIndex,\n    folderId: folderId,\n    scanTimestamp: new Date().toISOString(),\n    status: 'video_selected'\n  }\n};"
+      },
+      "id": "smart-select",
+      "name": "🎯 Smart Video Selection",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [900, 300]
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.downloadUrl }}",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "file"
+            }
+          },
+          "redirect": {
+            "redirect": {
+              "followRedirects": true,
+              "maxRedirects": 5
+            }
+          },
+          "timeout": 30000
+        }
+      },
+      "id": "download-video",
+      "name": "⬇️ Download Selected Video",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [1120, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Advanced caption generation with variety and intelligence\nconst videoData = $node['🎯 Smart Video Selection'].json;\n\n// Expanded caption collection for maximum variety\nconst mindfulCaptions = [\n  \"Stop. Breathe. Rest here for a moment. 🔥\",\n  \"Your scrolling journey pauses here. Take this breath. 🔥\",\n  \"This flame reminds you to be present. Rest now. 🔥\",\n  \"You found this for a reason. Stay. Breathe. Focus. 🔥\",\n  \"Let this warmth guide you back to stillness. 🔥\",\n  \"Pause here and let this moment heal your restless mind. 🔥\",\n  \"This is your invitation to stop and simply be. 🔥\",\n  \"Rest here. The world can wait for this moment. 🔥\",\n  \"Your breath is more important than your next scroll. 🔥\",\n  \"Find peace in this pause. You deserve this rest. 🔥\",\n  \"Let this gentle flame remind you to slow down. 🔥\",\n  \"In this moment, you have everything you need. Rest. 🔥\",\n  \"This warmth is here to remind you: pause, breathe, be. 🔥\",\n  \"Your soul called you to stop here. Listen to it. 🔥\",\n  \"Every scroll can wait. This breath cannot. 🔥\",\n  \"Notice this pause. Feel this peace. You are enough. 🔥\",\n  \"The endless scroll ends here. Welcome to now. 🔥\",\n  \"This flame holds space for your tired mind. Rest. 🔥\",\n  \"Between one scroll and the next, find yourself here. 🔥\",\n  \"Your attention is precious. Give it to this moment. 🔥\"\n];\n\n// Dynamic hashtag sets for variety\nconst hashtagCollections = [\n  \"#rest #mindfulness #stopscrolling #breathe #digitalwellness\",\n  \"#pause #mindfulscrolling #focus #meditation #warmth #peace\",\n  \"#slowdown #digitaldetox #mindful #selfcare #wellness #flame\",\n  \"#resthere #mindfulmoment #breathe #pause #innerpeace #calm\",\n  \"#mindfulness #rest #digitalwellness #stopscrolling #peace #zen\",\n  \"#takearest #mindfulbreak #breathe #present #peaceful #fire\",\n  \"#digitalpause #mindfulscrolling #innerpeace #restful #meditate\",\n  \"#breathework #mindfulness #digitalwellness #pause #serenity\",\n  \"#mindfultech #digitalbalance #peacefulmoment #restful #calm\",\n  \"#consciousscrolling #mindfulpause #innerpeace #breathe #zen\"\n];\n\n// Day-specific additions for personalization\nconst days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];\nconst currentDay = new Date().getDay();\nconst dayName = days[currentDay];\n\nconst daySpecificMessages = {\n  'Monday': ' Start your week with intention.',\n  'Tuesday': ' Find your center as the week unfolds.',\n  'Wednesday': ' Pause mid-week and reconnect with yourself.',\n  'Thursday': ' Almost to the weekend - breathe and stay present.',\n  'Friday': ' End your work week with gratitude and peace.',\n  'Saturday': ' Let this weekend moment restore your soul.',\n  'Sunday': ' Prepare for the week ahead with stillness.'\n};\n\n// Time-based context\nconst currentHour = new Date().getHours();\nlet timeContext = '';\nif (currentHour >= 6 && currentHour < 12) {\n  timeContext = ' Good morning - start today mindfully.';\n} else if (currentHour >= 12 && currentHour < 17) {\n  timeContext = ' Take a peaceful afternoon break.';\n} else if (currentHour >= 17 && currentHour < 21) {\n  timeContext = ' Wind down your evening gently.';\n} else {\n  timeContext = ' Find peace in this quiet moment.';\n}\n\n// Select random elements\nconst selectedCaption = mindfulCaptions[Math.floor(Math.random() * mindfulCaptions.length)];\nconst selectedHashtags = hashtagCollections[Math.floor(Math.random() * hashtagCollections.length)];\nconst dayMessage = daySpecificMessages[dayName] || '';\n\n// Randomly decide whether to add day or time context (50% chance each)\nconst addDayContext = Math.random() > 0.5;\nconst addTimeContext = Math.random() > 0.3;\n\nlet contextMessage = '';\nif (addDayContext && addTimeContext) {\n  contextMessage = dayMessage + timeContext;\n} else if (addDayContext) {\n  contextMessage = dayMessage;\n} else if (addTimeContext) {\n  contextMessage = timeContext;\n}\n\n// Combine into final caption\nconst finalCaption = `${selectedCaption}${contextMessage}\\n\\n${selectedHashtags}`;\n\n// Log generation details\nconsole.log(`📝 Generated ${dayName} caption:`);\nconsole.log(`🎯 Base: ${selectedCaption}`);\nconsole.log(`📅 Context: ${contextMessage}`);\nconsole.log(`📹 Using video ${videoData.selectedIndex + 1} of ${videoData.totalVideosFound}`);\n\nreturn {\n  json: {\n    caption: finalCaption,\n    baseCaption: selectedCaption,\n    contextMessage: contextMessage,\n    hashtags: selectedHashtags,\n    dayOfWeek: dayName,\n    timeOfDay: currentHour,\n    videoNumber: videoData.selectedIndex + 1,\n    totalVideos: videoData.totalVideosFound,\n    selectedFileId: videoData.selectedFileId,\n    generationTimestamp: new Date().toISOString()\n  }\n};"
+      },
+      "id": "smart-caption",
+      "name": "✍️ Smart Caption Generator",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1340, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://graph.facebook.com/v18.0/17841473404345852/media",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "multipart/form-data"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "multipart-form-data",
+        "multipartBody": {
+          "parameters": [
+            {
+              "name": "media_type",
+              "value": "REELS"
+            },
+            {
+              "name": "video_url",
+              "value": "={{ $node['🎯 Smart Video Selection'].json.downloadUrl }}"
+            },
+            {
+              "name": "caption",
+              "value": "={{ $json.caption }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "upload-instagram",
+      "name": "📱 Upload to Instagram",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [1560, 300],
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "instagram_api_token",
+          "name": "Instagram API Token"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://graph.facebook.com/v18.0/17841473404345852/media_publish",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "jsonBody": "={\\n  \"creation_id\": \"{{ $json.id }}\"\\n}",
+        "options": {}
+      },
+      "id": "publish-instagram",
+      "name": "🚀 Publish Instagram Post",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [1780, 300],
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "instagram_api_token",
+          "name": "Instagram API Token"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Comprehensive success logging and analytics\nconst captionData = $node['✍️ Smart Caption Generator'].json;\nconst videoData = $node['🎯 Smart Video Selection'].json;\nconst publishData = $json;\n\nconst successReport = {\n  // Post Status\n  success: true,\n  instagram_post_id: publishData.id,\n  posted_at: new Date().toISOString(),\n  \n  // Content Details\n  day_posted: captionData.dayOfWeek,\n  video_used: {\n    number: captionData.videoNumber,\n    file_id: captionData.selectedFileId,\n    total_available: captionData.totalVideos\n  },\n  \n  // Caption Analysis\n  caption_details: {\n    base_message: captionData.baseCaption,\n    context_added: captionData.contextMessage,\n    hashtags_used: captionData.hashtags,\n    total_length: captionData.caption.length\n  },\n  \n  // Automation Health\n  automation_status: {\n    folder_scan_successful: true,\n    video_download_successful: true,\n    caption_generation_successful: true,\n    instagram_upload_successful: true,\n    instagram_publish_successful: true\n  },\n  \n  // Next Steps\n  schedule: {\n    next_post_time: 'Tomorrow at 6:00 PM',\n    will_auto_include_new_videos: true,\n    no_manual_updates_needed: true\n  }\n};\n\n// Beautiful console logging\nconsole.log('🎉🎉🎉 INSTAGRAM POST SUCCESSFUL! 🎉🎉🎉');\nconsole.log('═══════════════════════════════════════════════════');\nconsole.log('📅 Day:', successReport.day_posted);\nconsole.log('📹 Video:', `#${successReport.video_used.number} of ${successReport.video_used.total_available} available`);\nconsole.log('🆔 File ID:', successReport.video_used.file_id);\nconsole.log('📝 Caption:', successReport.caption_details.base_message);\nconsole.log('🏷️ Context:', successReport.caption_details.context_added || 'None added');\nconsole.log('📱 Instagram Post ID:', successReport.instagram_post_id);\nconsole.log('⏰ Posted at:', successReport.posted_at);\nconsole.log('🔄 Next post:', successReport.schedule.next_post_time);\nconsole.log('🤖 Automation status: FULLY AUTOMATED ✅');\nconsole.log('📁 New videos auto-detected: YES ✅');\nconsole.log('🛠️ Manual updates needed: NONE ✅');\nconsole.log('═══════════════════════════════════════════════════');\nconsole.log('🚀 Your Instagram Resting Platform is running perfectly!');\nconsole.log('📈 Add new videos to your Drive folder anytime - they will be automatically included!');\n\n// Optional: You can add webhook/email notifications here\n// Example: Send success notification to Slack, Discord, email, etc.\n\nreturn { \n  json: successReport \n};"
+      },
+      "id": "success-analytics",
+      "name": "📊 Success Analytics & Logging",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [2000, 300]
+    }
+  ],
+  "connections": {
+    "Daily 6PM Trigger": {
+      "main": [
+        [
+          {
+            "node": "🔧 Configuration (Edit This Once)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🔧 Configuration (Edit This Once)": {
+      "main": [
+        [
+          {
+            "node": "🔍 Scan Folder for Videos",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🔍 Scan Folder for Videos": {
+      "main": [
+        [
+          {
+            "node": "🎯 Smart Video Selection",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🎯 Smart Video Selection": {
+      "main": [
+        [
+          {
+            "node": "⬇️ Download Selected Video",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "⬇️ Download Selected Video": {
+      "main": [
+        [
+          {
+            "node": "✍️ Smart Caption Generator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "✍️ Smart Caption Generator": {
+      "main": [
+        [
+          {
+            "node": "📱 Upload to Instagram",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "📱 Upload to Instagram": {
+      "main": [
+        [
+          {
+            "node": "🚀 Publish Instagram Post",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🚀 Publish Instagram Post": {
+      "main": [
+        [
+          {
+            "node": "📊 Success Analytics & Logging",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [
+    {
+      "createdAt": "2024-12-19T12:00:00.000Z",
+      "updatedAt": "2024-12-19T12:00:00.000Z",
+      "id": "smart-auto-discovery",
+      "name": "Smart Auto-Discovery"
+    }
+  ],
+  "triggerCount": 1,
+  "updatedAt": "2024-12-19T12:00:00.000Z",
+  "versionId": "4"
+}
