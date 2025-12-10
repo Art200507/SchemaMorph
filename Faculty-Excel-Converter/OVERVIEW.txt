@@ -1,0 +1,344 @@
+================================================================================
+                    FACULTY EXCEL CONVERTER - OVERVIEW
+================================================================================
+
+PROJECT LOCATION:
+/Users/AtharvaBadgujar/Kansas State University Code/Faculty-Excel-Converter
+
+================================================================================
+WHAT THIS PROJECT DOES
+================================================================================
+
+This web application solves the problem of converting faculty data from text
+files to Excel format and tracking changes between academic years.
+
+KEY CAPABILITIES:
+1. ✅ Analyze faculty changes between two years
+2. ✅ Automatically update Excel files with detected changes
+3. ✅ Generate Excel templates with custom year columns
+4. ✅ User-friendly web interface (no coding required)
+
+================================================================================
+HOW TO START THE APPLICATION
+================================================================================
+
+METHOD 1 - Using the startup script:
+    cd Faculty-Excel-Converter
+    ./start.sh
+
+METHOD 2 - Manual start:
+    cd Faculty-Excel-Converter
+    pip install -r requirements.txt
+    python app.py
+
+Then open: http://localhost:5000
+
+================================================================================
+MAIN FEATURES
+================================================================================
+
+1. ANALYZE FACULTY CHANGES
+   - Upload two text files (earlier year & later year)
+   - Automatically detects:
+     • Resignations
+     • New hires
+     • Title changes (promotions/demotions)
+     • Faculty with multiple titles
+   - Visual summary with statistics
+
+2. UPDATE EXCEL FILE
+   - Upload existing Excel file + two data files
+   - Specify year column (e.g., "2024-2025")
+   - Download updated Excel with all changes applied
+   - Changes applied:
+     • Resigned faculty marked as 'N'
+     • Title changes updated
+     • New hires added to spreadsheet
+
+3. CREATE TEMPLATE
+   - Generate new Excel template
+   - Custom year columns
+   - Properly formatted structure
+   - Ready to populate
+
+================================================================================
+INPUT FORMAT
+================================================================================
+
+TEXT FILES (.txt):
+-----------------
+Professor: John Doe, Jane Smith, Bob Johnson
+Associate Professor: Alice Brown, Charlie Davis
+Assistant Professor: Eve Wilson, Frank Miller
+
+Format rules:
+- One line per title
+- Title followed by colon
+- Comma-separated names
+
+EXCEL FILES (.xlsx):
+-------------------
+Required columns:
+- "Faculty name" (exact spelling)
+- "Department"
+- Year columns (e.g., "2023-2024", "2024-2025")
+
+Year column values:
+- Professor, Associate Professor, Assistant Professor, etc.
+- "N" for not employed
+
+================================================================================
+PROJECT FILES
+================================================================================
+
+CORE APPLICATION:
+  app.py              - Main Flask web server
+  converter.py        - Core conversion & comparison logic
+  requirements.txt    - Python dependencies
+
+WEB INTERFACE:
+  templates/base.html              - Base layout
+  templates/index.html             - Home page
+  templates/results.html           - Analysis results display
+  templates/create_template.html   - Template generator
+
+DOCUMENTATION:
+  README.md           - Complete documentation
+  QUICKSTART.md       - Quick start guide
+  PROJECT_SUMMARY.md  - Detailed project summary
+  OVERVIEW.txt        - This file
+
+EXAMPLES & UTILITIES:
+  example_data_2023.txt  - Sample data file (year 1)
+  example_data_2024.txt  - Sample data file (year 2)
+  start.sh               - Automated startup script
+
+STORAGE:
+  uploads/            - Temporary file storage (auto-cleanup)
+  static/             - Static assets (CSS, JS, images)
+
+================================================================================
+EXAMPLE WORKFLOW
+================================================================================
+
+SCENARIO: Update your faculty roster for 2024-2025
+
+Step 1: Prepare your data
+  - Create text file with 2023-2024 faculty
+  - Create text file with 2024-2025 faculty
+
+Step 2: Analyze changes
+  - Go to http://localhost:5000
+  - Upload both text files
+  - Click "Analyze Changes"
+  - Review detected changes
+
+Step 3: Update Excel
+  - Upload your existing Excel file
+  - Upload both data files
+  - Enter year column: "2024-2025"
+  - Click "Update Excel File"
+  - Download updated file
+
+DONE! Your Excel file now reflects all changes.
+
+================================================================================
+WHAT GETS DETECTED
+================================================================================
+
+RESIGNATIONS:
+  Faculty who appear in year 1 but not in year 2
+  → Marked as 'N' in the new year column
+
+NEW HIRES:
+  Faculty who appear in year 2 but not in year 1
+  → Added to spreadsheet with their title
+
+TITLE CHANGES:
+  Faculty whose title changed between years
+  → Title updated in the new year column
+  Examples:
+    - Assistant Professor → Associate Professor (promotion)
+    - Associate Professor → Professor (promotion)
+
+MULTIPLE TITLES:
+  Faculty holding more than one position
+  → Flagged for manual review
+
+================================================================================
+TECHNICAL DETAILS
+================================================================================
+
+TECHNOLOGY STACK:
+  - Python 3.x
+  - Flask (web framework)
+  - pandas (Excel processing)
+  - openpyxl (Excel file handling)
+  - difflib (fuzzy name matching)
+
+FEATURES:
+  - 85% fuzzy name matching (handles typos)
+  - Automatic file cleanup
+  - Secure file uploads (16MB max)
+  - Responsive web interface
+  - Error handling throughout
+
+SECURITY:
+  - File type validation
+  - Secure filename handling
+  - Session-based file management
+  - Automatic cleanup of temporary files
+
+================================================================================
+CUSTOMIZATION
+================================================================================
+
+CHANGE FUZZY MATCHING SENSITIVITY:
+  Edit converter.py, line ~9:
+  converter = FacultyConverter(cutoff=0.85)
+  Range: 0.0 (very lenient) to 1.0 (exact match)
+
+CHANGE DEFAULT DEPARTMENT:
+  Edit converter.py, ExcelUpdater.update_excel(), line ~69:
+  'Department': 'Your Department Name'
+
+CHANGE SERVER PORT:
+  Edit app.py, last line:
+  app.run(debug=True, host='0.0.0.0', port=5000)
+
+CHANGE SECRET KEY (IMPORTANT FOR PRODUCTION):
+  Edit app.py, line ~11:
+  app.secret_key = 'your-secure-random-key-here'
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+ERROR: "Column not found"
+  → Ensure Excel has exact column name "Faculty name"
+  → Check year column name matches your input (case-sensitive)
+
+ERROR: Names not matching correctly
+  → Lower the cutoff value in converter.py
+  → Check for unusual characters in names
+  → Verify name format is consistent
+
+ERROR: Can't upload files
+  → Check file size (max 16MB)
+  → Verify file extension (.txt, .xlsx, .xls only)
+  → Ensure browser allows file uploads
+
+ERROR: Template not downloading
+  → Check browser download settings
+  → Verify uploads/ folder has write permissions
+
+ERROR: Port already in use
+  → Change port in app.py
+  → Or stop other Flask applications
+
+================================================================================
+TESTING
+================================================================================
+
+Use the included example files to test:
+
+1. Start the application
+2. Go to "Analyze Faculty Changes"
+3. Upload:
+   - File 1: example_data_2023.txt
+   - File 2: example_data_2024.txt
+4. Click "Analyze Changes"
+
+EXPECTED RESULTS:
+  - 2 title changes detected (Michael Wilson, David Thomas)
+  - 2 new hires detected (James Moore, Sarah Lee)
+  - 0 resignations
+
+This confirms the application is working correctly!
+
+================================================================================
+COMPARISON TO ORIGINAL SCRIPTS
+================================================================================
+
+BEFORE (Original Scripts):
+  ❌ Command-line interface only
+  ❌ Hardcoded file paths
+  ❌ Required Python knowledge
+  ❌ Manual data entry for Excel updates
+  ❌ Text output only
+  ❌ Different script for each university
+
+AFTER (This Application):
+  ✅ Beautiful web interface
+  ✅ Upload any files
+  ✅ No coding required
+  ✅ Automatic Excel updates
+  ✅ Downloadable results
+  ✅ Universal solution for all universities
+
+================================================================================
+DEPENDENCIES
+================================================================================
+
+Flask==3.0.0          - Web framework
+pandas==2.1.3         - Data processing
+openpyxl==3.1.2       - Excel file handling
+Werkzeug==3.0.1       - WSGI utilities
+
+Install all at once:
+    pip install -r requirements.txt
+
+================================================================================
+GETTING HELP
+================================================================================
+
+1. Read README.md for detailed documentation
+2. Check QUICKSTART.md for common tasks
+3. Review PROJECT_SUMMARY.md for technical details
+4. Examine example files for format reference
+5. Check troubleshooting section above
+
+================================================================================
+PROJECT STATUS
+================================================================================
+
+✅ All core features implemented
+✅ Web interface complete
+✅ Documentation comprehensive
+✅ Example data included
+✅ Startup scripts ready
+✅ Error handling robust
+✅ Security measures in place
+
+STATUS: READY FOR USE
+
+================================================================================
+QUICK REFERENCE COMMANDS
+================================================================================
+
+START APPLICATION:
+    ./start.sh
+
+MANUAL START:
+    python app.py
+
+INSTALL DEPENDENCIES:
+    pip install -r requirements.txt
+
+CREATE VIRTUAL ENVIRONMENT:
+    python3 -m venv venv
+    source venv/bin/activate
+
+VIEW APPLICATION:
+    http://localhost:5000
+
+STOP SERVER:
+    Press Ctrl+C in terminal
+
+================================================================================
+
+For more information, see README.md or QUICKSTART.md
+
+Happy converting!
+
+================================================================================

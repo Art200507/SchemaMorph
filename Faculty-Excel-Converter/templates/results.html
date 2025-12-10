@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+
+{% block title %}Analysis Results - Faculty Excel Converter{% endblock %}
+{% block hero_pill %}Insight Stream{% endblock %}
+{% block hero_title %}Change Intelligence Report{% endblock %}
+{% block hero_body %}
+    Visualize the roster deltas from your latest comparison and route the results back into mission control.
+{% endblock %}
+
+{% block content %}
+<section class="glass-panel border border-white/10">
+    <h2 class="text-xl font-semibold text-white mb-6">Signal Summary</h2>
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div class="neon-border text-center">
+            <p class="text-xs uppercase tracking-[0.4em] text-slate-400">Resignations</p>
+            <p class="text-4xl font-bold text-rose-200 mt-3">{{ summary.resignations }}</p>
+        </div>
+        <div class="neon-border text-center">
+            <p class="text-xs uppercase tracking-[0.4em] text-slate-400">New Hires</p>
+            <p class="text-4xl font-bold text-emerald-200 mt-3">{{ summary.new_hires }}</p>
+        </div>
+        <div class="neon-border text-center">
+            <p class="text-xs uppercase tracking-[0.4em] text-slate-400">Title Changes</p>
+            <p class="text-4xl font-bold text-indigo-200 mt-3">{{ summary.title_changes }}</p>
+        </div>
+        <div class="neon-border text-center">
+            <p class="text-xs uppercase tracking-[0.4em] text-slate-400">Multiple Titles</p>
+            <p class="text-4xl font-bold text-amber-200 mt-3">{{ summary.multiple_titles }}</p>
+        </div>
+    </div>
+</section>
+
+{% macro render_table(title, badge_color, items, headers) -%}
+<section class="glass-panel border border-white/10">
+    <div class="flex items-center justify-between flex-wrap gap-3 mb-5">
+        <h2 class="text-2xl font-semibold">{{ title }}</h2>
+        <span class="px-4 py-1 rounded-full text-sm font-semibold" style="background: {{ badge_color }}20; color: {{ badge_color }};">
+            {{ items|length }} entries
+        </span>
+    </div>
+    <div class="overflow-x-auto">
+        <table class="data-table w-full text-left text-sm">
+            <thead class="uppercase text-xs tracking-[0.2em] text-slate-400 border-b border-white/10">
+                <tr>
+                    {% for header in headers %}
+                        <th class="py-3 pr-6">{{ header }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-white/5">
+                {{ caller() }}
+            </tbody>
+        </table>
+    </div>
+</section>
+{%- endmacro %}
+
+<div class="mt-10 space-y-8">
+    {% if resigned %}
+        {% call render_table('Resigned Faculty', '#fca5a5', resigned, ['Name', 'Previous Title']) %}
+            {% for person in resigned %}
+            <tr>
+                <td class="py-3 pr-6">{{ person.name }}</td>
+                <td class="py-3 pr-6 text-slate-300/80">{{ person.title }}</td>
+            </tr>
+            {% endfor %}
+        {% endcall %}
+    {% endif %}
+
+    {% if title_changes %}
+        {% call render_table('Title Changes', '#fcd34d', title_changes, ['Name', 'From', 'To']) %}
+            {% for person in title_changes %}
+            <tr>
+                <td class="py-3 pr-6">{{ person.name }}</td>
+                <td class="py-3 pr-6 text-slate-400">{{ person.from }}</td>
+                <td class="py-3 pr-6 text-emerald-200 font-semibold">{{ person.to }}</td>
+            </tr>
+            {% endfor %}
+        {% endcall %}
+    {% endif %}
+
+    {% if new_hires %}
+        {% call render_table('New Hires', '#86efac', new_hires, ['Name', 'Title']) %}
+            {% for person in new_hires %}
+            <tr>
+                <td class="py-3 pr-6">{{ person.name }}</td>
+                <td class="py-3 pr-6 text-slate-300/80">{{ person.title }}</td>
+            </tr>
+            {% endfor %}
+        {% endcall %}
+    {% endif %}
+
+    {% if multiple_titles %}
+        {% call render_table('Multiple Title Profiles', '#c4b5fd', multiple_titles, ['Name', 'Year 1 Titles', 'Year 2 Titles']) %}
+            {% for person in multiple_titles %}
+            <tr>
+                <td class="py-3 pr-6">{{ person.name }}</td>
+                <td class="py-3 pr-6 text-slate-400">{{ person.year1 }}</td>
+                <td class="py-3 pr-6 text-slate-400">{{ person.year2 }}</td>
+            </tr>
+            {% endfor %}
+        {% endcall %}
+    {% endif %}
+</div>
+
+<div class="mt-12 flex justify-center">
+    <a href="{{ url_for('index') }}" class="btn-primary max-w-sm">
+        Return to Mission Control
+    </a>
+</div>
+{% endblock %}

@@ -1,0 +1,473 @@
+import { useState } from "react";
+import { ThreeDBackground } from "./components/ThreeDBackground";
+import { Upload, FileText, Download, Sparkles } from "lucide-react";
+
+interface AnalysisResults {
+  resigned: Array<{ name: string; title: string }>;
+  title_changes: Array<{ name: string; from: string; to: string }>;
+  new_hires: Array<{ name: string; title: string }>;
+  multiple_titles: Array<{ name: string; year1: string; year2: string }>;
+  summary: {
+    resignations: number;
+    new_hires: number;
+    title_changes: number;
+    multiple_titles: number;
+  };
+}
+
+export default function App() {
+  const [activeTab, setActiveTab] = useState<"analyze" | "update" | "template">("analyze");
+  const [file1, setFile1] = useState<File | null>(null);
+  const [file2, setFile2] = useState<File | null>(null);
+  const [excelFile, setExcelFile] = useState<File | null>(null);
+  const [yearColumn, setYearColumn] = useState("");
+  const [yearColumns, setYearColumns] = useState("");
+  const [results, setResults] = useState<AnalysisResults | null>(null);
+  const [loading, setLoading] = useState(false);
+
+  const handleAnalyze = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!file1 || !file2) return;
+
+    setLoading(true);
+    const formData = new FormData();
+    formData.append("file1", file1);
+    formData.append("file2", file2);
+
+    try {
+      const response = await fetch("/analyze", {
+        method: "POST",
+        body: formData,
+      });
+      const data = await response.json();
+      setResults(data);
+    } catch (error) {
+      console.error("Error:", error);
+      alert("Error analyzing files");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleUpdateExcel = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!excelFile || !file1 || !file2 || !yearColumn) return;
+
+    setLoading(true);
+    const formData = new FormData();
+    formData.append("excel_file", excelFile);
+    formData.append("data_file1", file1);
+    formData.append("data_file2", file2);
+    formData.append("year_column", yearColumn);
+
+    try {
+      const response = await fetch("/update-excel", {
+        method: "POST",
+        body: formData,
+      });
+
+      if (response.ok) {
+        const blob = await response.blob();
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "updated_faculty.xlsx";
+        a.click();
+      } else {
+        alert("Error updating Excel file");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      alert("Error updating Excel file");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleCreateTemplate = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!yearColumns) return;
+
+    setLoading(true);
+    const formData = new FormData();
+    formData.append("year_columns", yearColumns);
+
+    try {
+      const response = await fetch("/create-template", {
+        method: "POST",
+        body: formData,
+      });
+
+      if (response.ok) {
+        const blob = await response.blob();
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "faculty_template.xlsx";
+        a.click();
+      } else {
+        alert("Error creating template");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      alert("Error creating template");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  return (
+    <div className="relative w-full min-h-screen overflow-x-hidden">
+      {/* 3D Background with pink/magenta blob on right */}
+      <ThreeDBackground />
+
+      {/* Main Content */}
+      <div className="relative z-10">
+        {/* Hero Section - Full Screen */}
+        <section className="min-h-screen flex items-center">
+          <div className="container mx-auto px-6">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              {/* Left Side - Branding */}
+              <div className="space-y-6">
+                <div className="flex items-center gap-4 mb-4">
+                  <Sparkles className="w-12 h-12 text-pink-400 animate-pulse" />
+                  <h1 className="text-7xl font-bold bg-gradient-to-r from-white via-pink-100 to-fuchsia-100 bg-clip-text text-transparent">
+                    SchemaMorph
+                  </h1>
+                </div>
+                <p className="text-pink-200/90 text-2xl font-light leading-relaxed">
+                  Transform your faculty data with holographic precision
+                </p>
+                <p className="text-pink-300/70 text-lg font-light max-w-xl">
+                  Analyze changes, update spreadsheets, and generate templates with AI-powered accuracy. Experience the future of data management.
+                </p>
+                <div className="flex gap-4 pt-4">
+                  <a
+                    href="#content"
+                    className="px-8 py-4 rounded-xl bg-gradient-to-r from-pink-600 to-fuchsia-600 text-white font-semibold hover:from-pink-500 hover:to-fuchsia-500 transition-all duration-300 shadow-lg shadow-pink-500/50"
+                  >
+                    Get Started
+                  </a>
+                  <button
+                    className="px-8 py-4 rounded-xl border border-pink-400/30 text-pink-200 font-semibold hover:bg-pink-900/20 transition-all duration-300"
+                  >
+                    Learn More
+                  </button>
+                </div>
+              </div>
+
+              {/* Right Side - Empty (blob is here in background) */}
+              <div className="hidden lg:block"></div>
+            </div>
+          </div>
+        </section>
+
+        {/* Content Section - Scrollable */}
+        <section id="content" className="min-h-screen bg-gradient-to-b from-transparent to-[#0a0015]/80 backdrop-blur-sm">
+          <div className="container mx-auto px-6 py-16">
+
+            {/* Navigation Tabs */}
+            <div className="mb-8">
+              <div className="flex gap-4 backdrop-blur-md bg-pink-950/20 rounded-2xl p-2 border border-pink-500/20">
+            <button
+              onClick={() => setActiveTab("analyze")}
+              className={`flex-1 px-6 py-3 rounded-xl transition-all duration-300 ${
+                activeTab === "analyze"
+                  ? "bg-gradient-to-r from-violet-600 to-purple-600 text-white shadow-lg shadow-violet-500/50"
+                  : "text-violet-300 hover:bg-violet-900/30"
+              }`}
+            >
+              <FileText className="w-5 h-5 inline-block mr-2" />
+              Analyze Changes
+            </button>
+            <button
+              onClick={() => setActiveTab("update")}
+              className={`flex-1 px-6 py-3 rounded-xl transition-all duration-300 ${
+                activeTab === "update"
+                  ? "bg-gradient-to-r from-violet-600 to-purple-600 text-white shadow-lg shadow-violet-500/50"
+                  : "text-violet-300 hover:bg-violet-900/30"
+              }`}
+            >
+              <Upload className="w-5 h-5 inline-block mr-2" />
+              Update Excel
+            </button>
+            <button
+              onClick={() => setActiveTab("template")}
+              className={`flex-1 px-6 py-3 rounded-xl transition-all duration-300 ${
+                activeTab === "template"
+                  ? "bg-gradient-to-r from-violet-600 to-purple-600 text-white shadow-lg shadow-violet-500/50"
+                  : "text-violet-300 hover:bg-violet-900/30"
+              }`}
+            >
+              <Download className="w-5 h-5 inline-block mr-2" />
+              Create Template
+            </button>
+              </div>
+            </div>
+
+            {/* Content Area */}
+            <div className="pb-12">
+          {/* Analyze Tab */}
+          {activeTab === "analyze" && (
+            <div className="backdrop-blur-xl bg-violet-950/30 rounded-3xl p-8 border border-violet-500/30 shadow-2xl shadow-violet-500/20">
+              <h2 className="text-3xl font-bold text-violet-200 mb-6">Analyze Faculty Changes</h2>
+              <p className="text-violet-300/80 mb-8">
+                Compare two faculty data files to identify new hires, resignations, and title changes.
+              </p>
+
+              <form onSubmit={handleAnalyze} className="space-y-6">
+                <div>
+                  <label className="block text-violet-300 mb-2 font-medium">
+                    Faculty Data File 1 (Earlier Year)
+                  </label>
+                  <input
+                    type="file"
+                    accept=".txt"
+                    onChange={(e) => setFile1(e.target.files?.[0] || null)}
+                    className="w-full px-4 py-3 rounded-xl bg-violet-900/30 border border-violet-500/30 text-violet-200 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:border-transparent"
+                    required
+                  />
+                  <p className="text-violet-400/60 text-sm mt-1">Format: Title: Name1, Name2, Name3</p>
+                </div>
+
+                <div>
+                  <label className="block text-violet-300 mb-2 font-medium">
+                    Faculty Data File 2 (Later Year)
+                  </label>
+                  <input
+                    type="file"
+                    accept=".txt"
+                    onChange={(e) => setFile2(e.target.files?.[0] || null)}
+                    className="w-full px-4 py-3 rounded-xl bg-violet-900/30 border border-violet-500/30 text-violet-200 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:border-transparent"
+                    required
+                  />
+                </div>
+
+                <button
+                  type="submit"
+                  disabled={loading}
+                  className="w-full px-6 py-4 rounded-xl bg-gradient-to-r from-violet-600 to-purple-600 text-white font-semibold hover:from-violet-500 hover:to-purple-500 transition-all duration-300 shadow-lg shadow-violet-500/50 disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  {loading ? "Analyzing..." : "Analyze Changes"}
+                </button>
+              </form>
+
+              {/* Results */}
+              {results && (
+                <div className="mt-8 space-y-4">
+                  <h3 className="text-2xl font-bold text-violet-200 mb-4">Analysis Results</h3>
+
+                  {/* Summary Cards */}
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+                    <div className="bg-violet-900/40 rounded-xl p-4 border border-violet-500/20">
+                      <div className="text-violet-400/60 text-sm">New Hires</div>
+                      <div className="text-3xl font-bold text-violet-200">{results.summary.new_hires}</div>
+                    </div>
+                    <div className="bg-violet-900/40 rounded-xl p-4 border border-violet-500/20">
+                      <div className="text-violet-400/60 text-sm">Resignations</div>
+                      <div className="text-3xl font-bold text-violet-200">{results.summary.resignations}</div>
+                    </div>
+                    <div className="bg-violet-900/40 rounded-xl p-4 border border-violet-500/20">
+                      <div className="text-violet-400/60 text-sm">Title Changes</div>
+                      <div className="text-3xl font-bold text-violet-200">{results.summary.title_changes}</div>
+                    </div>
+                    <div className="bg-violet-900/40 rounded-xl p-4 border border-violet-500/20">
+                      <div className="text-violet-400/60 text-sm">Multiple Titles</div>
+                      <div className="text-3xl font-bold text-violet-200">{results.summary.multiple_titles}</div>
+                    </div>
+                  </div>
+
+                  {/* Detailed Results */}
+                  {results.new_hires.length > 0 && (
+                    <div className="bg-violet-900/30 rounded-xl p-6 border border-violet-500/20">
+                      <h4 className="text-xl font-semibold text-green-400 mb-3">New Hires</h4>
+                      <ul className="space-y-2">
+                        {results.new_hires.map((hire, idx) => (
+                          <li key={idx} className="text-violet-200">
+                            <span className="font-medium">{hire.name}</span> - {hire.title}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+
+                  {results.resigned.length > 0 && (
+                    <div className="bg-violet-900/30 rounded-xl p-6 border border-violet-500/20">
+                      <h4 className="text-xl font-semibold text-red-400 mb-3">Resignations</h4>
+                      <ul className="space-y-2">
+                        {results.resigned.map((person, idx) => (
+                          <li key={idx} className="text-violet-200">
+                            <span className="font-medium">{person.name}</span> - {person.title}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+
+                  {results.title_changes.length > 0 && (
+                    <div className="bg-violet-900/30 rounded-xl p-6 border border-violet-500/20">
+                      <h4 className="text-xl font-semibold text-blue-400 mb-3">Title Changes</h4>
+                      <ul className="space-y-2">
+                        {results.title_changes.map((change, idx) => (
+                          <li key={idx} className="text-violet-200">
+                            <span className="font-medium">{change.name}</span>: {change.from} → {change.to}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* Update Excel Tab */}
+          {activeTab === "update" && (
+            <div className="backdrop-blur-xl bg-violet-950/30 rounded-3xl p-8 border border-violet-500/30 shadow-2xl shadow-violet-500/20">
+              <h2 className="text-3xl font-bold text-violet-200 mb-6">Update Excel File</h2>
+              <p className="text-violet-300/80 mb-8">
+                Update an existing Excel file with faculty changes detected from two data files.
+              </p>
+
+              <form onSubmit={handleUpdateExcel} className="space-y-6">
+                <div>
+                  <label className="block text-violet-300 mb-2 font-medium">Excel File to Update</label>
+                  <input
+                    type="file"
+                    accept=".xlsx,.xls"
+                    onChange={(e) => setExcelFile(e.target.files?.[0] || null)}
+                    className="w-full px-4 py-3 rounded-xl bg-violet-900/30 border border-violet-500/30 text-violet-200 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:border-transparent"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-violet-300 mb-2 font-medium">
+                    Faculty Data File 1 (Earlier Year)
+                  </label>
+                  <input
+                    type="file"
+                    accept=".txt"
+                    onChange={(e) => setFile1(e.target.files?.[0] || null)}
+                    className="w-full px-4 py-3 rounded-xl bg-violet-900/30 border border-violet-500/30 text-violet-200 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:border-transparent"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-violet-300 mb-2 font-medium">
+                    Faculty Data File 2 (Later Year)
+                  </label>
+                  <input
+                    type="file"
+                    accept=".txt"
+                    onChange={(e) => setFile2(e.target.files?.[0] || null)}
+                    className="w-full px-4 py-3 rounded-xl bg-violet-900/30 border border-violet-500/30 text-violet-200 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:border-transparent"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-violet-300 mb-2 font-medium">Year Column Name</label>
+                  <input
+                    type="text"
+                    value={yearColumn}
+                    onChange={(e) => setYearColumn(e.target.value)}
+                    placeholder="e.g., 2024-2025"
+                    className="w-full px-4 py-3 rounded-xl bg-violet-900/30 border border-violet-500/30 text-violet-200 placeholder-violet-400/40 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:border-transparent"
+                    required
+                  />
+                  <p className="text-violet-400/60 text-sm mt-1">
+                    The column in the Excel file to update (e.g., "2024-2025")
+                  </p>
+                </div>
+
+                <button
+                  type="submit"
+                  disabled={loading}
+                  className="w-full px-6 py-4 rounded-xl bg-gradient-to-r from-violet-600 to-purple-600 text-white font-semibold hover:from-violet-500 hover:to-purple-500 transition-all duration-300 shadow-lg shadow-violet-500/50 disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  {loading ? "Updating..." : "Update Excel File"}
+                </button>
+              </form>
+            </div>
+          )}
+
+          {/* Create Template Tab */}
+          {activeTab === "template" && (
+            <div className="backdrop-blur-xl bg-violet-950/30 rounded-3xl p-8 border border-violet-500/30 shadow-2xl shadow-violet-500/20">
+              <h2 className="text-3xl font-bold text-violet-200 mb-6">Create Excel Template</h2>
+              <p className="text-violet-300/80 mb-8">
+                Generate a new Excel template with your desired year columns.
+              </p>
+
+              <form onSubmit={handleCreateTemplate} className="space-y-6">
+                <div>
+                  <label className="block text-violet-300 mb-2 font-medium">
+                    Year Columns (comma-separated)
+                  </label>
+                  <input
+                    type="text"
+                    value={yearColumns}
+                    onChange={(e) => setYearColumns(e.target.value)}
+                    placeholder="e.g., 2023-2024, 2024-2025, 2025-2026"
+                    className="w-full px-4 py-3 rounded-xl bg-violet-900/30 border border-violet-500/30 text-violet-200 placeholder-violet-400/40 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:border-transparent"
+                    required
+                  />
+                  <p className="text-violet-400/60 text-sm mt-1">
+                    Enter the year columns you want in the template, separated by commas
+                  </p>
+                </div>
+
+                <button
+                  type="submit"
+                  disabled={loading}
+                  className="w-full px-6 py-4 rounded-xl bg-gradient-to-r from-violet-600 to-purple-600 text-white font-semibold hover:from-violet-500 hover:to-purple-500 transition-all duration-300 shadow-lg shadow-violet-500/50 disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  {loading ? "Creating..." : "Create Template"}
+                </button>
+              </form>
+
+              <div className="mt-8 bg-violet-900/30 rounded-xl p-6 border border-violet-500/20">
+                <h3 className="text-xl font-semibold text-violet-200 mb-3">Input File Format</h3>
+                <p className="text-violet-300/80 mb-3">Your text files should follow this format:</p>
+                <pre className="bg-black/40 rounded-lg p-4 text-violet-200 overflow-x-auto">
+{`Professor: John Doe, Jane Smith, Bob Johnson
+Associate Professor: Alice Brown, Charlie Davis
+Assistant Professor: Eve Wilson, Frank Miller`}
+                </pre>
+                <p className="text-violet-400/60 text-sm mt-3">
+                  Each line should have a title followed by a colon, then comma-separated faculty names.
+                </p>
+              </div>
+            </div>
+          )}
+        </div>
+
+            </div>
+
+            {/* Footer */}
+            <footer className="py-8 mt-12">
+              <div className="backdrop-blur-md bg-pink-950/20 rounded-2xl p-6 border border-pink-500/20">
+            <div className="flex items-center justify-between">
+              <div className="space-y-1">
+                <div className="text-violet-400/60 text-sm">Status</div>
+                <div className="flex items-center gap-2">
+                  <div className="w-2 h-2 rounded-full bg-violet-400 animate-pulse" />
+                  <span className="text-violet-300">System Active</span>
+                </div>
+              </div>
+
+              <div className="space-y-1 text-right">
+                <div className="text-violet-400/60 text-sm">Environment</div>
+                <div className="text-violet-300">Faculty Management System v1.0</div>
+              </div>
+                </div>
+              </div>
+            </footer>
+          </div>
+        </section>
+      </div>
+    </div>
+  );
+}

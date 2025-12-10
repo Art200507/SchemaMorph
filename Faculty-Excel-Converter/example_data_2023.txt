@@ -1,0 +1,3 @@
+Professor: John Smith, Mary Johnson, Robert Davis, Patricia Brown
+Associate Professor: Michael Wilson, Linda Martinez, William Anderson, Elizabeth Taylor
+Assistant Professor: David Thomas, Jennifer Garcia, Richard Rodriguez, Susan Hernandez

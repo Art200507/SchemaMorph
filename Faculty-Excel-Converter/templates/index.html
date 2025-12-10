@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+
+{% block hero_pill %}Futuristic 3D Control Deck{% endblock %}
+{% block hero_title %}SchemaMorph Command Center{% endblock %}
+{% block hero_body %}
+    Upload TXT rosters, diff faculty shifts, and patch your Excel source of truth with a single neon-powered workflow.
+{% endblock %}
+
+{% block content %}
+<div class="grid gap-8 lg:grid-cols-2">
+    <section class="glass-panel space-y-6 border border-white/10">
+        <div>
+            <p class="text-xs uppercase tracking-[0.4em] text-slate-300/70">Step 01</p>
+            <h2 class="text-2xl font-semibold text-white mt-2">Analyze Faculty Changes</h2>
+            <p class="text-slate-300/80">
+                Compare two TXT snapshots to surface resignations, new hires, and title mutations.
+            </p>
+        </div>
+        <form method="POST" action="{{ url_for('analyze') }}" enctype="multipart/form-data" class="space-y-5">
+            <div>
+                <label for="file1" class="text-sm font-semibold text-slate-200">Data File 1 · Earlier Year</label>
+                <input id="file1" name="file1" type="file" accept=".txt" required
+                       class="mt-2 block w-full text-sm text-slate-200 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-white/10 file:text-white hover:file:bg-white/20 border border-white/20 rounded-xl bg-white/5 focus:outline-none focus:ring-2 focus:ring-plasma/60">
+                <p class="text-xs text-slate-400 mt-1 uppercase tracking-[0.3em]">Format: Title: Name1, Name2</p>
+            </div>
+            <div>
+                <label for="file2" class="text-sm font-semibold text-slate-200">Data File 2 · Later Year</label>
+                <input id="file2" name="file2" type="file" accept=".txt" required
+                       class="mt-2 block w-full text-sm text-slate-200 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-white/10 file:text-white hover:file:bg-white/20 border border-white/20 rounded-xl bg-white/5 focus:outline-none focus:ring-2 focus:ring-plasma/60">
+            </div>
+            <button type="submit" class="btn-primary">
+                <span>Deploy Analysis</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 12h14m-7-7l7 7-7 7"/>
+                </svg>
+            </button>
+        </form>
+    </section>
+
+    <section class="glass-panel space-y-6 border border-white/10">
+        <div>
+            <p class="text-xs uppercase tracking-[0.4em] text-slate-300/70">Step 02</p>
+            <h2 class="text-2xl font-semibold text-white mt-2">Update Excel Timeline</h2>
+            <p class="text-slate-300/80">
+                Feed the detected changes into your Excel master sheet—no manual editing required.
+            </p>
+        </div>
+        <form method="POST" action="{{ url_for('update_excel') }}" enctype="multipart/form-data" class="space-y-5">
+            <div>
+                <label for="excel_file" class="text-sm font-semibold text-slate-200">Excel File to Update</label>
+                <input id="excel_file" name="excel_file" type="file" accept=".xlsx,.xls" required
+                       class="mt-2 block w-full text-sm text-slate-200 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-white/10 file:text-white hover:file:bg-white/20 border border-white/20 rounded-xl bg-white/5 focus:outline-none focus:ring-2 focus:ring-plasma/60">
+                <p class="text-xs text-slate-400 mt-1 uppercase tracking-[0.3em]">Ensure Faculty name + year columns exist</p>
+            </div>
+            <div class="grid gap-5 md:grid-cols-2">
+                <div>
+                    <label for="data_file1" class="text-sm font-semibold text-slate-200">Data File 1</label>
+                    <input id="data_file1" name="data_file1" type="file" accept=".txt" required
+                           class="mt-2 block w-full text-sm text-slate-200 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-white/10 file:text-white hover:file:bg-white/20 border border-white/20 rounded-xl bg-white/5 focus:outline-none focus:ring-2 focus:ring-plasma/60">
+                </div>
+                <div>
+                    <label for="data_file2" class="text-sm font-semibold text-slate-200">Data File 2</label>
+                    <input id="data_file2" name="data_file2" type="file" accept=".txt" required
+                           class="mt-2 block w-full text-sm text-slate-200 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-white/10 file:text-white hover:file:bg-white/20 border border-white/20 rounded-xl bg-white/5 focus:outline-none focus:ring-2 focus:ring-plasma/60">
+                </div>
+            </div>
+            <div>
+                <label for="year_column" class="text-sm font-semibold text-slate-200">Year Column Identifier</label>
+                <input id="year_column" name="year_column" type="text" placeholder="e.g., 2024-2025" required
+                       class="mt-2 w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-white placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-plasma/60">
+                <p class="text-xs text-slate-400 mt-1 uppercase tracking-[0.3em]">Matches the target column header in Excel</p>
+            </div>
+            <button type="submit" class="btn-primary">
+                <span>Launch Excel Update</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6v6l4 2"/>
+                </svg>
+            </button>
+        </form>
+    </section>
+</div>
+
+<section class="mt-10 grid gap-8 lg:grid-cols-2">
+    <div class="glass-panel border border-white/10">
+        <h2 class="text-xl font-semibold text-white mb-4">Mission Walkthrough</h2>
+        <ol class="space-y-4 text-slate-200/80">
+            <li class="flex gap-3">
+                <span class="text-plasma font-semibold">01.</span>
+                <div>
+                    <strong>Scan TXT snapshots.</strong> We parse each title line into structured roster intelligence.
+                </div>
+            </li>
+            <li class="flex gap-3">
+                <span class="text-plasma font-semibold">02.</span>
+                <div>
+                    <strong>Detect deltas.</strong> SchemaMorph tags resignations, hires, promotions, and duplicates.
+                </div>
+            </li>
+            <li class="flex gap-3">
+                <span class="text-plasma font-semibold">03.</span>
+                <div>
+                    <strong>Patch Excel.</strong> Stream those insights directly into your longitudinal Excel grid.
+                </div>
+            </li>
+        </ol>
+    </div>
+
+    <div class="glass-panel border border-white/10">
+        <h2 class="text-xl font-semibold text-white mb-4">Input Signal Format</h2>
+        <p class="text-slate-300/80 mb-4">Each TXT payload should follow the structure below:</p>
+        <pre class="neon-border text-sm text-slate-100 overflow-x-auto whitespace-pre-wrap leading-7">
+Professor: John Doe, Jane Smith, Bob Johnson
+Associate Professor: Alice Brown, Charlie Davis
+Assistant Professor: Eve Wilson, Frank Miller
+        </pre>
+        <p class="text-xs text-slate-400 uppercase tracking-[0.3em] mt-4">One line per title • colon • comma-separated names</p>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+
+{% block title %}Create Template - Faculty Excel Converter{% endblock %}
+{% block hero_pill %}Template Forge{% endblock %}
+{% block hero_title %}Spin Up Excel Blueprints{% endblock %}
+{% block hero_body %}
+    Define the academic years you track and mint a pristine Excel template tailored to your roster pipeline.
+{% endblock %}
+
+{% block content %}
+<div class="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
+    <section class="glass-panel border border-white/10 space-y-6">
+        <div>
+            <p class="text-xs uppercase tracking-[0.4em] text-slate-400">Blueprint Wizard</p>
+            <h2 class="text-2xl font-semibold mt-2">Create Excel Template</h2>
+            <p class="text-slate-300/80">Comma-separate the academic years and download a ready-to-fill workbook.</p>
+        </div>
+
+        <form method="POST" enctype="multipart/form-data" class="space-y-5">
+            <div>
+                <label for="year_columns" class="text-sm font-semibold text-slate-200">Year Columns</label>
+                <input id="year_columns" name="year_columns" type="text" required
+                       placeholder="2022-2023, 2023-2024, 2024-2025"
+                       class="mt-2 w-full rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-white placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-plasma/60">
+                <p class="text-xs text-slate-400 mt-1 uppercase tracking-[0.3em]">Use commas to separate each academic year</p>
+            </div>
+
+            <button type="submit" class="btn-primary">
+                Generate Template
+            </button>
+        </form>
+    </section>
+
+    <section class="glass-panel border border-white/10 space-y-6">
+        <div>
+            <h2 class="text-xl font-semibold text-white mb-3">Template Structure</h2>
+            <p class="text-slate-300/80">Your workbook ships with:</p>
+            <ul class="space-y-3 mt-4 text-slate-200/90">
+                <li class="flex gap-3"><span class="text-plasma font-bold">•</span> Faculty name column</li>
+                <li class="flex gap-3"><span class="text-plasma font-bold">•</span> Department column (default: Engineering)</li>
+                <li class="flex gap-3"><span class="text-plasma font-bold">•</span> One column per year you specify</li>
+            </ul>
+        </div>
+        <div>
+            <p class="uppercase text-xs tracking-[0.3em] text-slate-400 mb-2">Column values</p>
+            <ul class="space-y-2 text-slate-200/80">
+                <li>Professor · Associate Professor · Assistant Professor</li>
+                <li>N — indicates not on staff for that year</li>
+            </ul>
+        </div>
+    </section>
+</div>
+
+<section class="glass-panel border border-white/10 mt-8">
+    <h2 class="text-xl font-semibold text-white mb-4">Example Layout</h2>
+    <div class="overflow-x-auto">
+        <table class="data-table w-full text-left text-sm">
+            <thead class="uppercase text-xs tracking-[0.2em] text-slate-400 border-b border-white/10">
+                <tr>
+                    <th class="py-3 pr-6">Faculty name</th>
+                    <th class="py-3 pr-6">Department</th>
+                    <th class="py-3 pr-6">2023-2024</th>
+                    <th class="py-3 pr-6">2024-2025</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-white/5">
+                <tr>
+                    <td class="py-3 pr-6">John Doe</td>
+                    <td class="py-3 pr-6 text-slate-400">Engineering</td>
+                    <td class="py-3 pr-6 text-emerald-200">Assistant Professor</td>
+                    <td class="py-3 pr-6 text-indigo-200">Associate Professor</td>
+                </tr>
+                <tr>
+                    <td class="py-3 pr-6">Jane Smith</td>
+                    <td class="py-3 pr-6 text-slate-400">Engineering</td>
+                    <td class="py-3 pr-6 text-rose-200">N</td>
+                    <td class="py-3 pr-6 text-emerald-200">Assistant Professor</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<div class="mt-10 flex justify-center">
+    <a href="{{ url_for('index') }}" class="btn-primary max-w-sm">Back to Mission Control</a>
+</div>
+{% endblock %}

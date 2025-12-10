@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}Faculty Excel Converter{% endblock %}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'night': '#030014',
+                        'plasma': '#8b5cf6',
+                        'plasma-soft': '#a78bfa'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/futuristic.css') }}">
+</head>
+<body class="bg-night text-white antialiased">
+    <div class="futuristic-bg">
+        <canvas id="futuristic-canvas"></canvas>
+        <div class="grid-overlay"></div>
+        <div class="glow-orbs"></div>
+        <div class="light-rays"></div>
+    </div>
+    <div class="content-shell relative min-h-screen px-5 py-10 md:px-10">
+        <div class="max-w-6xl mx-auto flex flex-col min-h-[80vh] gap-10">
+            <header class="space-y-6">
+                <div class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+                    <div>
+                        <span class="hero-pill">{% block hero_pill %}Quantum-grade data delta{% endblock %}</span>
+                        <h1 class="hero-title">{% block hero_title %}Faculty Excel Converter{% endblock %}</h1>
+                        <p class="text-slate-300/80 text-lg max-w-2xl">
+                            {% block hero_body %}
+                                Track, analyze, and update faculty rosters with an immersive, futuristic console experience.
+                            {% endblock %}
+                        </p>
+                    </div>
+                    <div class="glass-panel max-w-sm">
+                        <p class="text-sm uppercase tracking-[0.35em] text-slate-300/80 mb-3">System status</p>
+                        <div class="flex items-center gap-3">
+                            <span class="w-3 h-3 rounded-full bg-emerald-400 animate-pulse shadow-[0_0_15px_rgba(52,211,153,0.8)]"></span>
+                            <p class="text-slate-200">Ready for ingestion</p>
+                        </div>
+                    </div>
+                </div>
+                <nav class="flex flex-wrap gap-3 text-sm uppercase tracking-[0.25em]">
+                    <a href="{{ url_for('index') }}"
+                       class="px-5 py-2 rounded-full border border-white/10 backdrop-blur hover:border-white/40 transition {% if request.path == '/' %}bg-white/20 text-white{% else %}text-slate-200/70{% endif %}">
+                        Mission Control
+                    </a>
+                    <a href="{{ url_for('create_template') }}"
+                       class="px-5 py-2 rounded-full border border-white/10 backdrop-blur hover:border-white/40 transition {% if request.path.startswith('/create-template') %}bg-white/20 text-white{% else %}text-slate-200/70{% endif %}">
+                        Template Forge
+                    </a>
+                </nav>
+            </header>
+
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    <div class="flex flex-col gap-4">
+                        {% for category, message in messages %}
+                            <div class="flash flash-{{ category }}">{{ message }}</div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            {% endwith %}
+
+            <main class="pb-16">
+                {% block content %}{% endblock %}
+            </main>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.min.js"></script>
+    <script defer src="{{ url_for('static', filename='js/futuristic.js') }}"></script>
+</body>
+</html>
