@@ -1,17 +1,19 @@
 #!/usr/bin/env python3
 """
 Faculty Excel Converter Web Application
-Flask app for converting faculty txt data to Excel format
+Unified Flask app with API backend serving React 3D frontend
 """
 
-from flask import Flask, render_template, request, send_file, flash, redirect, url_for, jsonify
+from flask import Flask, render_template, request, send_file, flash, redirect, url_for, jsonify, send_from_directory
+from flask_cors import CORS
 from werkzeug.utils import secure_filename
 import os
 from pathlib import Path
 from converter import FacultyConverter, ExcelUpdater
 from datetime import datetime
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='frontend/build', static_url_path='')
+CORS(app)
 app.secret_key = 'your-secret-key-change-in-production'
 app.config['UPLOAD_FOLDER'] = 'uploads'
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max file size
@@ -28,26 +30,30 @@ def allowed_file(filename):
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    """Serve the React 3D frontend"""
+    return send_from_directory('frontend/build', 'index.html')
+
+
+@app.route('/assets/<path:path>')
+def send_assets(path):
+    """Serve frontend assets"""
+    return send_from_directory('frontend/build/assets', path)
 
 
 @app.route('/analyze', methods=['POST'])
 def analyze():
-    """Analyze two txt files and show faculty changes"""
+    """API endpoint to analyze two txt files and return faculty changes"""
     if 'file1' not in request.files or 'file2' not in request.files:
-        flash('Please upload both data files', 'error')
-        return redirect(url_for('index'))
+        return jsonify({'error': 'Please upload both data files'}), 400
 
     file1 = request.files['file1']
     file2 = request.files['file2']
 
     if file1.filename == '' or file2.filename == '':
-        flash('Please select both files', 'error')
-        return redirect(url_for('index'))
+        return jsonify({'error': 'Please select both files'}), 400
 
     if not (allowed_file(file1.filename) and allowed_file(file2.filename)):
-        flash('Only .txt files are allowed for faculty data', 'error')
-        return redirect(url_for('index'))
+        return jsonify({'error': 'Only .txt files are allowed for faculty data'}), 400
 
     # Save uploaded files
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
@@ -64,7 +70,7 @@ def analyze():
         dict2 = converter.parse_txt_to_dict(file2_path)
         new_hires, resigned, title_changes, multiple_titles = converter.compare_faculty(dict1, dict2)
 
-        # Prepare data for display
+        # Prepare data for response
         resigned_list = []
         for title, names in sorted(resigned.items()):
             for name in names:
@@ -93,7 +99,6 @@ def analyze():
                 'year2': year2_titles
             })
 
-        # Store file paths in session for later use
         summary = {
             'resignations': len(resigned_list),
             'new_hires': len(new_hires_list),
@@ -101,16 +106,16 @@ def analyze():
             'multiple_titles': len(multiple_titles_list)
         }
 
-        return render_template('results.html',
-                             resigned=resigned_list,
-                             title_changes=title_changes_list,
-                             new_hires=new_hires_list,
-                             multiple_titles=multiple_titles_list,
-                             summary=summary)
+        return jsonify({
+            'resigned': resigned_list,
+            'title_changes': title_changes_list,
+            'new_hires': new_hires_list,
+            'multiple_titles': multiple_titles_list,
+            'summary': summary
+        })
 
     except Exception as e:
-        flash(f'Error analyzing files: {str(e)}', 'error')
-        return redirect(url_for('index'))
+        return jsonify({'error': f'Error analyzing files: {str(e)}'}), 500
     finally:
         # Clean up uploaded files
         try:
@@ -122,10 +127,9 @@ def analyze():
 
 @app.route('/update-excel', methods=['POST'])
 def update_excel():
-    """Update Excel file with faculty changes"""
+    """API endpoint to update Excel file with faculty changes"""
     if 'excel_file' not in request.files or 'data_file1' not in request.files or 'data_file2' not in request.files:
-        flash('Please upload all required files', 'error')
-        return redirect(url_for('index'))
+        return jsonify({'error': 'Please upload all required files'}), 400
 
     excel_file = request.files['excel_file']
     data_file1 = request.files['data_file1']
@@ -133,12 +137,10 @@ def update_excel():
     year_column = request.form.get('year_column', '').strip()
 
     if not year_column:
-        flash('Please specify the year column', 'error')
-        return redirect(url_for('index'))
+        return jsonify({'error': 'Please specify the year column'}), 400
 
     if excel_file.filename == '' or data_file1.filename == '' or data_file2.filename == '':
-        flash('Please select all files', 'error')
-        return redirect(url_for('index'))
+        return jsonify({'error': 'Please select all files'}), 400
 
     # Save uploaded files
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
@@ -180,12 +182,10 @@ def update_excel():
             # Return the updated file
             return send_file(output_path, as_attachment=True, download_name=Path(output_path).name)
         else:
-            flash(f'Error: {message}', 'error')
-            return redirect(url_for('index'))
+            return jsonify({'error': message}), 500
 
     except Exception as e:
-        flash(f'Error updating Excel: {str(e)}', 'error')
-        return redirect(url_for('index'))
+        return jsonify({'error': f'Error updating Excel: {str(e)}'}), 500
     finally:
         # Clean up uploaded files (keep output file for download)
         try:
@@ -196,33 +196,27 @@ def update_excel():
             pass
 
 
-@app.route('/create-template', methods=['GET', 'POST'])
+@app.route('/create-template', methods=['POST'])
 def create_template():
-    """Create a base Excel template"""
-    if request.method == 'POST':
-        year_columns_str = request.form.get('year_columns', '')
-        year_columns = [y.strip() for y in year_columns_str.split(',') if y.strip()]
+    """API endpoint to create a base Excel template"""
+    year_columns_str = request.form.get('year_columns', '')
+    year_columns = [y.strip() for y in year_columns_str.split(',') if y.strip()]
 
-        if not year_columns:
-            flash('Please specify at least one year column', 'error')
-            return redirect(url_for('create_template'))
+    if not year_columns:
+        return jsonify({'error': 'Please specify at least one year column'}), 400
 
-        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        output_path = os.path.join(app.config['UPLOAD_FOLDER'], f'faculty_template_{timestamp}.xlsx')
+    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    output_path = os.path.join(app.config['UPLOAD_FOLDER'], f'faculty_template_{timestamp}.xlsx')
 
-        try:
-            success, message = ExcelUpdater.create_base_template(output_path, year_columns)
-            if success:
-                return send_file(output_path, as_attachment=True, download_name='faculty_template.xlsx')
-            else:
-                flash(f'Error: {message}', 'error')
-                return redirect(url_for('create_template'))
-        except Exception as e:
-            flash(f'Error creating template: {str(e)}', 'error')
-            return redirect(url_for('create_template'))
-
-    return render_template('create_template.html')
+    try:
+        success, message = ExcelUpdater.create_base_template(output_path, year_columns)
+        if success:
+            return send_file(output_path, as_attachment=True, download_name='faculty_template.xlsx')
+        else:
+            return jsonify({'error': message}), 500
+    except Exception as e:
+        return jsonify({'error': f'Error creating template: {str(e)}'}), 500
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=8080)
+    app.run(debug=True, host='0.0.0.0', port=5001)

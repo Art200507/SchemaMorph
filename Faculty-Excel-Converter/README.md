@@ -1,43 +1,58 @@
-# Faculty Excel Converter
+# SchemaMorph - Faculty Excel Converter
 
-A web-based application to convert faculty data from text files to Excel format, track changes between years, and automatically update Excel files with new hires, resignations, and title changes.
+A unified web application with a stunning 3D UI to convert faculty data from text files to Excel format, track changes between years, and automatically update Excel files with new hires, resignations, and title changes.
 
 ## Features
 
+- **Modern 3D UI**: Beautiful React + Three.js interface with animated backgrounds
 - **Analyze Faculty Changes**: Compare two faculty data files to identify changes
 - **Update Excel Files**: Automatically update Excel spreadsheets with detected changes
 - **Create Templates**: Generate base Excel templates with custom year columns
 - **Fuzzy Matching**: Intelligent name matching to handle minor spelling variations
-- **Beautiful Web Interface**: User-friendly interface with real-time analysis
+- **Unified Application**: Single app combining Flask backend with React 3D frontend
 
-## Installation
+## Quick Start
 
-1. **Clone or navigate to the project directory:**
-   ```bash
-   cd Faculty-Excel-Converter
-   ```
+### Automated Setup
 
-2. **Create a virtual environment (recommended):**
+Simply run the startup script:
+```bash
+chmod +x start.sh
+./start.sh
+```
+
+This will automatically:
+- Create a Python virtual environment
+- Install Python dependencies
+- Install npm dependencies
+- Build the React frontend
+- Start the unified application
+
+The application will be available at `http://localhost:5001`
+
+### Manual Setup (Advanced)
+
+If you prefer manual setup:
+
+1. **Install Python dependencies:**
    ```bash
    python3 -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install dependencies:**
-   ```bash
+   source venv/bin/activate
    pip install -r requirements.txt
    ```
 
-## Usage
+2. **Build the frontend:**
+   ```bash
+   cd frontend
+   npm install
+   npm run build
+   cd ..
+   ```
 
-### Starting the Application
-
-Run the Flask application:
-```bash
-python app.py
-```
-
-The application will be available at `http://localhost:5000`
+3. **Run the application:**
+   ```bash
+   python app.py
+   ```
 
 ### Input File Format
 
