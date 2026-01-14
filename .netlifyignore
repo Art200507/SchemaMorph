@@ -1,0 +1,12 @@
+# Ignore Python backend files - only deploy React frontend
+Faculty-Excel-Converter/*.py
+Faculty-Excel-Converter/requirements.txt
+Faculty-Excel-Converter/venv/
+Faculty-Excel-Converter/uploads/
+Faculty-Excel-Converter/__pycache__/
+Faculty-Excel-Converter/templates/
+Faculty-Excel-Converter/static/
+*.pyc
+__pycache__/
+venv/
+.venv/
